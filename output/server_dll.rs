@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2592,7 +2592,7 @@ pub mod cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_hViewModel (CHandle<CBaseViewModel>)
             pub mod CCSPlayer_ViewModelServices {
-                pub const m_hViewModel: usize = 0x40; // 
+                pub const m_hViewModel: usize = 0x40; // CHandle<CBaseViewModel>[3]
             }
             // Parent: CCSWeaponBase
             // Field count: 2
@@ -4469,9 +4469,9 @@ pub mod cs2_dumper {
             pub mod CAnimGraphNetworkedVariables {
                 pub const m_PredNetBoolVariables: usize = 0x8; // CNetworkUtlVectorBase<uint32>
                 pub const m_PredNetByteVariables: usize = 0x20; // CNetworkUtlVectorBase<uint8>
-                pub const m_PredNetUInt16Variables: usize = 0x38; // CNetworkUtlVectorBase<uint16>
-                pub const m_PredNetIntVariables: usize = 0x50; // CNetworkUtlVectorBase<int32>
-                pub const m_PredNetUInt32Variables: usize = 0x68; // CNetworkUtlVectorBase<uint32>
+                pub const m_PredNetUInt16Variables: usize = 0x38; // 
+                pub const m_PredNetIntVariables: usize = 0x50; // 
+                pub const m_PredNetUInt32Variables: usize = 0x68; // 
                 pub const m_PredNetUInt64Variables: usize = 0x80; // CNetworkUtlVectorBase<uint64>
                 pub const m_PredNetFloatVariables: usize = 0x98; // CNetworkUtlVectorBase<float32>
                 pub const m_PredNetVectorVariables: usize = 0xB0; // CNetworkUtlVectorBase<Vector>
@@ -4480,13 +4480,13 @@ pub mod cs2_dumper {
                 pub const m_OwnerOnlyPredNetBoolVariables: usize = 0xF8; // CNetworkUtlVectorBase<uint32>
                 pub const m_OwnerOnlyPredNetByteVariables: usize = 0x110; // CNetworkUtlVectorBase<uint8>
                 pub const m_OwnerOnlyPredNetUInt16Variables: usize = 0x128; // CNetworkUtlVectorBase<uint16>
-                pub const m_OwnerOnlyPredNetIntVariables: usize = 0x140; // 
-                pub const m_OwnerOnlyPredNetUInt32Variables: usize = 0x158; // 
-                pub const m_OwnerOnlyPredNetUInt64Variables: usize = 0x170; // 
+                pub const m_OwnerOnlyPredNetIntVariables: usize = 0x140; // CNetworkUtlVectorBase<int32>
+                pub const m_OwnerOnlyPredNetUInt32Variables: usize = 0x158; // CNetworkUtlVectorBase<uint32>
+                pub const m_OwnerOnlyPredNetUInt64Variables: usize = 0x170; // CNetworkUtlVectorBase<uint64>
                 pub const m_OwnerOnlyPredNetFloatVariables: usize = 0x188; // CNetworkUtlVectorBase<float32>
                 pub const m_OwnerOnlyPredNetVectorVariables: usize = 0x1A0; // CNetworkUtlVectorBase<Vector>
-                pub const m_OwnerOnlyPredNetQuaternionVariables: usize = 0x1B8; // 
-                pub const m_OwnerOnlyPredNetGlobalSymbolVariables: usize = 0x1D0; // 
+                pub const m_OwnerOnlyPredNetQuaternionVariables: usize = 0x1B8; // CNetworkUtlVectorBase<Quaternion>
+                pub const m_OwnerOnlyPredNetGlobalSymbolVariables: usize = 0x1D0; // CNetworkUtlVectorBase<CGlobalSymbol>
                 pub const m_nBoolVariablesCount: usize = 0x1E8; // int32
                 pub const m_nOwnerOnlyBoolVariablesCount: usize = 0x1EC; // int32
                 pub const m_nRandomSeedOffset: usize = 0x1F0; // int32
@@ -6807,7 +6807,7 @@ pub mod cs2_dumper {
                 pub const m_flDissolveStartTime: usize = 0x554; // GameTime_t
                 pub const m_OnIgnite: usize = 0x558; // CEntityIOOutput
                 pub const m_nRenderMode: usize = 0x580; // 
-                pub const m_nRenderFX: usize = 0x581; // RenderFx_t
+                pub const m_nRenderFX: usize = 0x581; // 
                 pub const m_bAllowFadeInView: usize = 0x582; // bool
                 pub const m_clrRender: usize = 0x5A0; // Color
                 pub const m_vecRenderAttributes: usize = 0x5A8; // CUtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
@@ -7632,7 +7632,7 @@ pub mod cs2_dumper {
                 pub const m_bIsQuestEligible: usize = 0x949; // bool
                 pub const m_bIsHltvActive: usize = 0x94A; // bool
                 pub const m_arrProhibitedItemIndices: usize = 0x94C; // uint16[100]
-                pub const m_arrTournamentActiveCasterAccounts: usize = 0xA14; // uint32[4]
+                pub const m_arrTournamentActiveCasterAccounts: usize = 0xA14; // 
                 pub const m_numBestOfMaps: usize = 0xA24; // int32
                 pub const m_nHalloweenMaskListSeed: usize = 0xA28; // int32
                 pub const m_bBombDropped: usize = 0xA2C; // bool
@@ -9595,10 +9595,10 @@ pub mod cs2_dumper {
                 pub const m_worldGroupId: usize = 0x38; // WorldGroupId_t
                 pub const m_fDataObjectTypes: usize = 0x3C; // uint32
                 pub const m_PathIndex: usize = 0x40; // ChangeAccessorFieldPathIndex_t
-                pub const m_pPrev: usize = 0x58; // 
-                pub const m_pNext: usize = 0x60; // 
-                pub const m_pPrevByClass: usize = 0x68; // 
-                pub const m_pNextByClass: usize = 0x70; // 
+                pub const m_pPrev: usize = 0x58; // CEntityIdentity*
+                pub const m_pNext: usize = 0x60; // CEntityIdentity*
+                pub const m_pPrevByClass: usize = 0x68; // CEntityIdentity*
+                pub const m_pNextByClass: usize = 0x70; // CEntityIdentity*
             }
             // Parent: CBaseToggle
             // Field count: 3
@@ -10645,8 +10645,8 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
             pub mod CEntityInstance {
                 pub const m_iszPrivateVScripts: usize = 0x8; // CUtlSymbolLarge
-                pub const m_pEntity: usize = 0x10; // 
-                pub const m_CScriptComponent: usize = 0x28; // 
+                pub const m_pEntity: usize = 0x10; // CEntityIdentity*
+                pub const m_CScriptComponent: usize = 0x28; // CScriptComponent*
                 pub const m_bVisibleinPVS: usize = 0x30; // bool
             }
             // Parent: CBaseEntity

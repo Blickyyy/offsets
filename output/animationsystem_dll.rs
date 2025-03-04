@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1233,7 +1233,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CMotionSearchNode {
                 pub const m_children: usize = 0x0; // CUtlVector<CMotionSearchNode*>
-                pub const m_quantizer: usize = 0x18; // 
+                pub const m_quantizer: usize = 0x18; // CVectorQuantizer
                 pub const m_sampleCodes: usize = 0x38; // CUtlVector<CUtlVector<SampleCode>>
                 pub const m_sampleIndices: usize = 0x50; // CUtlVector<CUtlVector<int32>>
                 pub const m_selectableSamples: usize = 0x68; // CUtlVector<int32>
@@ -1464,7 +1464,7 @@ pub mod cs2_dumper {
             pub mod CMotionGraph {
                 pub const m_paramSpans: usize = 0x10; // CParamSpanUpdater
                 pub const m_tags: usize = 0x28; // CUtlVector<TagSpan_t>
-                pub const m_pRootNode: usize = 0x40; // CSmartPtr<CMotionNode>
+                pub const m_pRootNode: usize = 0x40; // 
                 pub const m_nParameterCount: usize = 0x48; // int32
                 pub const m_nConfigStartIndex: usize = 0x4C; // int32
                 pub const m_nConfigCount: usize = 0x50; // int32
@@ -2003,14 +2003,14 @@ pub mod cs2_dumper {
                 pub const m_nRefCounter: usize = 0x2; // uint16
                 pub const m_bonesHash: usize = 0x8; // CUtlVector<uint32>
                 pub const m_boneNames: usize = 0x20; // CUtlVector<CUtlString>
-                pub const m_indexNames: usize = 0x38; // 
-                pub const m_indexHash: usize = 0x50; // 
-                pub const m_bindPose: usize = 0x68; // CUtlVector<matrix3x4a_t>
+                pub const m_indexNames: usize = 0x38; // CUtlVector<uint16>
+                pub const m_indexHash: usize = 0x50; // CUtlVector<uint16>
+                pub const m_bindPose: usize = 0x68; // 
                 pub const m_parts: usize = 0x80; // CUtlVector<VPhysXBodyPart_t>
                 pub const m_constraints2: usize = 0x98; // CUtlVector<VPhysXConstraint2_t>
                 pub const m_joints: usize = 0xB0; // CUtlVector<VPhysXJoint_t>
                 pub const m_pFeModel: usize = 0xC8; // PhysFeModelDesc_t*
-                pub const m_boneParents: usize = 0xD0; // 
+                pub const m_boneParents: usize = 0xD0; // CUtlVector<uint16>
                 pub const m_surfacePropertyHashes: usize = 0xE8; // CUtlVector<uint32>
                 pub const m_collisionAttributes: usize = 0x100; // CUtlVector<VPhysXCollisionAttributes_t>
                 pub const m_debugPartNames: usize = 0x118; // CUtlVector<CUtlString>
@@ -3082,7 +3082,7 @@ pub mod cs2_dumper {
                 pub const m_rootToWorld: usize = 0x10; // matrix3x4a_t
                 pub const m_bBonesInWorldSpace: usize = 0x40; // bool
                 pub const m_boneSetupMask: usize = 0x48; // CUtlVector<uint32>
-                pub const m_boneTransforms: usize = 0x60; // CUtlVector<matrix3x4a_t>
+                pub const m_boneTransforms: usize = 0x60; // 
                 pub const m_flexControllers: usize = 0x78; // CUtlVector<float32>
                 pub const m_SnapshotType: usize = 0x90; // AnimationSnapshotType_t
                 pub const m_bHasDecodeDump: usize = 0x94; // bool
@@ -3164,9 +3164,9 @@ pub mod cs2_dumper {
             // Field count: 17
             pub mod CCompressorGroup {
                 pub const m_nTotalElementCount: usize = 0x0; // int32
-                pub const m_szChannelClass: usize = 0x8; // CUtlVector<char*>
-                pub const m_szVariableName: usize = 0x20; // CUtlVector<char*>
-                pub const m_nType: usize = 0x38; // CUtlVector<fieldtype_t>
+                pub const m_szChannelClass: usize = 0x8; // 
+                pub const m_szVariableName: usize = 0x20; // 
+                pub const m_nType: usize = 0x38; // 
                 pub const m_nFlags: usize = 0x50; // CUtlVector<int32>
                 pub const m_szGrouping: usize = 0x68; // CUtlVector<CUtlString>
                 pub const m_nCompressorIndex: usize = 0x80; // CUtlVector<int32>
@@ -3320,7 +3320,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CFootLockUpdateNode {
-                pub const m_opFixedSettings: usize = 0x68; // 
+                pub const m_opFixedSettings: usize = 0x68; // FootLockPoseOpFixedSettings
                 pub const m_footSettings: usize = 0xD0; // CUtlVector<FootFixedSettings>
                 pub const m_hipShiftDamping: usize = 0xE8; // CAnimInputDamping
                 pub const m_rootHeightDamping: usize = 0xF8; // CAnimInputDamping
@@ -3364,7 +3364,7 @@ pub mod cs2_dumper {
                 pub const m_flDamping: usize = 0xC; // float32
                 pub const m_vBoundsMaxLS: usize = 0x10; // Vector
                 pub const m_vBoundsMinLS: usize = 0x1C; // Vector
-                pub const m_eSimSpace: usize = 0x28; // 
+                pub const m_eSimSpace: usize = 0x28; // JiggleBoneSimSpace
             }
             // Parent: CSequenceUpdateNode
             // Field count: 8
@@ -3394,7 +3394,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FootLockPoseOpFixedSettings {
-                pub const m_footInfo: usize = 0x0; // 
+                pub const m_footInfo: usize = 0x0; // CUtlVector<FootFixedData_t>
                 pub const m_hipDampingSettings: usize = 0x18; // CAnimInputDamping
                 pub const m_nHipBoneIndex: usize = 0x28; // int32
                 pub const m_ikSolverType: usize = 0x2C; // 
@@ -3651,7 +3651,7 @@ pub mod cs2_dumper {
                 pub const m_nDefaultMeshGroupMask: usize = 0x180; // uint64
                 pub const m_modelSkeleton: usize = 0x188; // ModelSkeletonData_t
                 pub const m_remappingTable: usize = 0x230; // CUtlVector<int16>
-                pub const m_remappingTableStarts: usize = 0x248; // 
+                pub const m_remappingTableStarts: usize = 0x248; // CUtlVector<uint16>
                 pub const m_boneFlexDrivers: usize = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
                 pub const m_pModelConfigList: usize = 0x278; // CModelConfigList*
                 pub const m_BodyGroupsHiddenInTools: usize = 0x280; // CUtlVector<CUtlString>
@@ -3728,7 +3728,7 @@ pub mod cs2_dumper {
                 pub const m_CompositeBones: usize = 0x48; // CUtlVector<CTransform>
                 pub const m_SimStateBones: usize = 0x60; // CUtlVector<CTransform>
                 pub const m_FeModelAnims: usize = 0x78; // CUtlVector<CTransform>
-                pub const m_FeModelPos: usize = 0x90; // CUtlVector<VectorAligned>
+                pub const m_FeModelPos: usize = 0x90; // 
                 pub const m_FlexControllerWeights: usize = 0xA8; // CUtlVector<float32>
             }
             // Parent: CModelConfigElement
@@ -4869,7 +4869,7 @@ pub mod cs2_dumper {
                 pub const m_capsules: usize = 0x18; // CUtlVector<RnCapsuleDesc_t>
                 pub const m_hulls: usize = 0x30; // CUtlVector<RnHullDesc_t>
                 pub const m_meshes: usize = 0x48; // CUtlVector<RnMeshDesc_t>
-                pub const m_CollisionAttributeIndices: usize = 0x60; // 
+                pub const m_CollisionAttributeIndices: usize = 0x60; // CUtlVector<uint16>
             }
             // Parent: CNmFloatValueNode__CDefinition
             // Field count: 2
@@ -4933,7 +4933,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod FootPinningPoseOpFixedData_t {
-                pub const m_footInfo: usize = 0x0; // 
+                pub const m_footInfo: usize = 0x0; // CUtlVector<FootFixedData_t>
                 pub const m_flBlendTime: usize = 0x18; // float32
                 pub const m_flLockBreakDistance: usize = 0x1C; // float32
                 pub const m_flMaxLegTwist: usize = 0x20; // float32
@@ -5154,7 +5154,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod MotionBlendItem {
-                pub const m_pChild: usize = 0x0; // CSmartPtr<CMotionNode>
+                pub const m_pChild: usize = 0x0; // 
                 pub const m_flKeyValue: usize = 0x8; // float32
             }
             // Parent: CBoneConstraintBase
@@ -5528,7 +5528,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CPoseHandle {
                 pub const m_nIndex: usize = 0x0; // uint16
-                pub const m_eType: usize = 0x2; // 
+                pub const m_eType: usize = 0x2; // PoseType_t
             }
             // Parent: CNmIDValueNode__CDefinition
             // Field count: 2
@@ -5612,7 +5612,7 @@ pub mod cs2_dumper {
             pub mod TwoBoneIKSettings_t {
                 pub const m_endEffectorType: usize = 0x0; // IkEndEffectorType
                 pub const m_endEffectorAttachment: usize = 0x10; // CAnimAttachment
-                pub const m_targetType: usize = 0x90; // 
+                pub const m_targetType: usize = 0x90; // IkTargetType
                 pub const m_targetAttachment: usize = 0xA0; // CAnimAttachment
                 pub const m_targetBoneIndex: usize = 0x120; // int32
                 pub const m_hPositionParam: usize = 0x124; // CAnimParamHandle
@@ -5912,8 +5912,8 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CMotionSearchDB {
                 pub const m_rootNode: usize = 0x0; // CMotionSearchNode
-                pub const m_residualQuantizer: usize = 0x80; // 
-                pub const m_codeIndices: usize = 0xA0; // CUtlVector<MotionDBIndex>
+                pub const m_residualQuantizer: usize = 0x80; // CProductQuantizer
+                pub const m_codeIndices: usize = 0xA0; // 
             }
             // Parent: CMotionNode
             // Field count: 2
@@ -6165,7 +6165,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CFollowTargetUpdateNode {
-                pub const m_opFixedData: usize = 0x68; // 
+                pub const m_opFixedData: usize = 0x68; // FollowTargetOpFixedSettings_t
                 pub const m_hParameterPosition: usize = 0x80; // CAnimParamHandle
                 pub const m_hParameterOrientation: usize = 0x82; // CAnimParamHandle
             }

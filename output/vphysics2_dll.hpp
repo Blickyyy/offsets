@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #pragma once
 
@@ -150,7 +150,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_FitMatrices = 0x3D8; // CUtlVector<FeFitMatrix_t>
                 constexpr std::ptrdiff_t m_FitWeights = 0x3F0; // CUtlVector<FeFitWeight_t>
                 constexpr std::ptrdiff_t m_ReverseOffsets = 0x408; // CUtlVector<FeNodeReverseOffset_t>
-                constexpr std::ptrdiff_t m_AnimStrayRadii = 0x420; // 
+                constexpr std::ptrdiff_t m_AnimStrayRadii = 0x420; // CUtlVector<FeAnimStrayRadius_t>
                 constexpr std::ptrdiff_t m_SimdAnimStrayRadii = 0x438; // CUtlVector<FeSimdAnimStrayRadius_t>
                 constexpr std::ptrdiff_t m_KelagerBends = 0x450; // CUtlVector<FeKelagerBend2_t>
                 constexpr std::ptrdiff_t m_CtrlSoftOffsets = 0x468; // CUtlVector<FeCtrlSoftOffset_t>

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -358,7 +358,7 @@ pub mod cs2_dumper {
                 pub const m_bIsQuestEligible: usize = 0x8C1; // bool
                 pub const m_bIsHltvActive: usize = 0x8C2; // bool
                 pub const m_arrProhibitedItemIndices: usize = 0x8C4; // uint16[100]
-                pub const m_arrTournamentActiveCasterAccounts: usize = 0x98C; // uint32[4]
+                pub const m_arrTournamentActiveCasterAccounts: usize = 0x98C; // 
                 pub const m_numBestOfMaps: usize = 0x99C; // int32
                 pub const m_nHalloweenMaskListSeed: usize = 0x9A0; // int32
                 pub const m_bBombDropped: usize = 0x9A4; // bool
@@ -458,7 +458,7 @@ pub mod cs2_dumper {
                 pub const m_nDecalsAdded: usize = 0xAB0; // int32
                 pub const m_iOldHealth: usize = 0xAB4; // int32
                 pub const m_nRenderMode: usize = 0xAB8; // 
-                pub const m_nRenderFX: usize = 0xAB9; // RenderFx_t
+                pub const m_nRenderFX: usize = 0xAB9; // 
                 pub const m_bAllowFadeInView: usize = 0xABA; // bool
                 pub const m_clrRender: usize = 0xAD8; // Color
                 pub const m_vecRenderAttributes: usize = 0xAE0; // C_UtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
@@ -719,13 +719,13 @@ pub mod cs2_dumper {
                 pub const m_PlayerFog: usize = 0x58; // C_fogplayerparams_t
                 pub const m_hColorCorrectionCtrl: usize = 0x98; // CHandle<C_ColorCorrection>
                 pub const m_hViewEntity: usize = 0x9C; // CHandle<C_BaseEntity>
-                pub const m_hTonemapController: usize = 0xA0; // CHandle<C_TonemapController2>
+                pub const m_hTonemapController: usize = 0xA0; // 
                 pub const m_audio: usize = 0xA8; // audioparams_t
                 pub const m_PostProcessingVolumes: usize = 0x120; // C_NetworkUtlVectorBase<CHandle<C_PostProcessingVolume>>
                 pub const m_flOldPlayerZ: usize = 0x138; // float32
                 pub const m_flOldPlayerViewOffsetZ: usize = 0x13C; // float32
                 pub const m_CurrentFog: usize = 0x140; // fogparams_t
-                pub const m_hOldFogController: usize = 0x1A8; // CHandle<C_FogController>
+                pub const m_hOldFogController: usize = 0x1A8; // 
                 pub const m_bOverrideFogColor: usize = 0x1AC; // bool[5]
                 pub const m_OverrideFogColor: usize = 0x1B1; // Color[5]
                 pub const m_bOverrideFogStartEnd: usize = 0x1C5; // bool[5]
@@ -803,7 +803,7 @@ pub mod cs2_dumper {
             // Parent: CEntityComponent
             // Field count: 2
             pub mod CBodyComponent {
-                pub const m_pSceneNode: usize = 0x8; // CGameSceneNode*
+                pub const m_pSceneNode: usize = 0x8; // 
                 pub const __m_pChainEntity: usize = 0x20; // CNetworkVarChainer
             }
             // Parent: C_SoundAreaEntityBase
@@ -2069,7 +2069,7 @@ pub mod cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_hCtrl (CHandle<CFogController>)
             pub mod C_fogplayerparams_t {
-                pub const m_hCtrl: usize = 0x8; // CHandle<C_FogController>
+                pub const m_hCtrl: usize = 0x8; // 
                 pub const m_flTransitionTime: usize = 0xC; // float32
                 pub const m_OldColor: usize = 0x10; // Color
                 pub const m_flOldStart: usize = 0x14; // float32
@@ -2708,9 +2708,9 @@ pub mod cs2_dumper {
                 pub const m_pObserverServices: usize = 0x11C0; // CPlayer_ObserverServices*
                 pub const m_pWaterServices: usize = 0x11C8; // CPlayer_WaterServices*
                 pub const m_pUseServices: usize = 0x11D0; // CPlayer_UseServices*
-                pub const m_pFlashlightServices: usize = 0x11D8; // 
-                pub const m_pCameraServices: usize = 0x11E0; // 
-                pub const m_pMovementServices: usize = 0x11E8; // 
+                pub const m_pFlashlightServices: usize = 0x11D8; // CPlayer_FlashlightServices*
+                pub const m_pCameraServices: usize = 0x11E0; // CPlayer_CameraServices*
+                pub const m_pMovementServices: usize = 0x11E8; // CPlayer_MovementServices*
                 pub const m_ServerViewAngleChanges: usize = 0x11F8; // C_UtlVectorEmbeddedNetworkVar<ViewAngleServerChange_t>
                 pub const m_nHighestConsumedServerViewAngleChangeIndex: usize = 0x1248; // uint32
                 pub const v_angle: usize = 0x124C; // QAngle
@@ -5813,7 +5813,7 @@ pub mod cs2_dumper {
                 pub const m_CBodyComponent: usize = 0x38; // CBodyComponent*
                 pub const m_NetworkTransmitComponent: usize = 0x40; // CNetworkTransmitComponent
                 pub const m_nLastThinkTick: usize = 0x320; // GameTick_t
-                pub const m_pGameSceneNode: usize = 0x328; // CGameSceneNode*
+                pub const m_pGameSceneNode: usize = 0x328; // 
                 pub const m_pRenderComponent: usize = 0x330; // CRenderComponent*
                 pub const m_pCollision: usize = 0x338; // CCollisionProperty*
                 pub const m_iMaxHealth: usize = 0x340; // int32
@@ -6575,9 +6575,9 @@ pub mod cs2_dumper {
             pub mod CGameSceneNode {
                 pub const m_nodeToWorld: usize = 0x10; // CTransform
                 pub const m_pOwner: usize = 0x30; // CEntityInstance*
-                pub const m_pParent: usize = 0x38; // CGameSceneNode*
-                pub const m_pChild: usize = 0x40; // CGameSceneNode*
-                pub const m_pNextSibling: usize = 0x48; // CGameSceneNode*
+                pub const m_pParent: usize = 0x38; // 
+                pub const m_pChild: usize = 0x40; // 
+                pub const m_pNextSibling: usize = 0x48; // 
                 pub const m_hParent: usize = 0x78; // CGameSceneNodeHandle
                 pub const m_vecOrigin: usize = 0x88; // CNetworkOriginCellCoordQuantizedVector
                 pub const m_angRotation: usize = 0xC0; // QAngle
@@ -6671,7 +6671,7 @@ pub mod cs2_dumper {
                 pub const m_flObsInterp_PathLength: usize = 0x74; // float32
                 pub const m_qObsInterp_OrientationStart: usize = 0x80; // Quaternion
                 pub const m_qObsInterp_OrientationTravelDir: usize = 0x90; // Quaternion
-                pub const m_obsInterpState: usize = 0xA0; // 
+                pub const m_obsInterpState: usize = 0xA0; // ObserverInterpState_t
                 pub const m_bObserverInterpolationNeedsDeferredSetup: usize = 0xA4; // bool
             }
             // Parent: C_BaseEntity

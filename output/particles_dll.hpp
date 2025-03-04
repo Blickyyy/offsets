@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #pragma once
 
@@ -1974,7 +1974,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flUVOffset = 0x8B8; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flSplitRate = 0xA18; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flBranchTwist = 0xB78; // CParticleCollectionFloatInput
-                constexpr std::ptrdiff_t m_nBranchBehavior = 0xCD8; // 
+                constexpr std::ptrdiff_t m_nBranchBehavior = 0xCD8; // ParticleLightnintBranchBehavior_t
                 constexpr std::ptrdiff_t m_flRadiusStart = 0xCE0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flRadiusEnd = 0xE40; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flDedicatedPool = 0xFA0; // CParticleCollectionFloatInput
@@ -5499,7 +5499,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hTexture = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Gradient = 0x10; // CColorGradient
                 constexpr std::ptrdiff_t m_nTextureType = 0x28; // SpriteCardTextureType_t
-                constexpr std::ptrdiff_t m_nTextureChannels = 0x2C; // SpriteCardTextureChannel_t
+                constexpr std::ptrdiff_t m_nTextureChannels = 0x2C; // 
                 constexpr std::ptrdiff_t m_nTextureBlendMode = 0x30; // ParticleTextureLayerBlendType_t
                 constexpr std::ptrdiff_t m_flTextureBlend = 0x38; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_TextureControls = 0x198; // TextureControls_t

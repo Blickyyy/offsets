@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1969,7 +1969,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flUVOffset = 0x8B8; // CParticleCollectionFloatInput
             public const nint m_flSplitRate = 0xA18; // CParticleCollectionFloatInput
             public const nint m_flBranchTwist = 0xB78; // CParticleCollectionFloatInput
-            public const nint m_nBranchBehavior = 0xCD8; // 
+            public const nint m_nBranchBehavior = 0xCD8; // ParticleLightnintBranchBehavior_t
             public const nint m_flRadiusStart = 0xCE0; // CParticleCollectionFloatInput
             public const nint m_flRadiusEnd = 0xE40; // CParticleCollectionFloatInput
             public const nint m_flDedicatedPool = 0xFA0; // CParticleCollectionFloatInput
@@ -5494,7 +5494,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_hTexture = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
             public const nint m_Gradient = 0x10; // CColorGradient
             public const nint m_nTextureType = 0x28; // SpriteCardTextureType_t
-            public const nint m_nTextureChannels = 0x2C; // SpriteCardTextureChannel_t
+            public const nint m_nTextureChannels = 0x2C; // 
             public const nint m_nTextureBlendMode = 0x30; // ParticleTextureLayerBlendType_t
             public const nint m_flTextureBlend = 0x38; // CParticleCollectionRendererFloatInput
             public const nint m_TextureControls = 0x198; // TextureControls_t

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1088,8 +1088,8 @@ pub mod cs2_dumper {
                 pub const m_Vars: usize = 0x68; // CUtlVector<CPulse_Variable>
                 pub const m_PublicOutputs: usize = 0x80; // CUtlVector<CPulse_PublicOutput>
                 pub const m_InvokeBindings: usize = 0x98; // CUtlVector<CPulse_InvokeBinding*>
-                pub const m_CallInfos: usize = 0xB0; // CUtlVector<CPulse_CallInfo*>
-                pub const m_Constants: usize = 0xC8; // CUtlVector<CPulse_Constant>
+                pub const m_CallInfos: usize = 0xB0; // 
+                pub const m_Constants: usize = 0xC8; // 
                 pub const m_DomainValues: usize = 0xE0; // CUtlVector<CPulse_DomainValue>
                 pub const m_BlackboardReferences: usize = 0xF8; // CUtlVector<CPulse_BlackboardReference>
                 pub const m_OutputConnections: usize = 0x110; // CUtlVector<CPulse_OutputConnection*>

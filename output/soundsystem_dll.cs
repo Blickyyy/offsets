@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -455,7 +455,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class VMixModDelayDesc_t {
-            public const nint m_feedbackFilter = 0x0; // VMixFilterDesc_t
+            public const nint m_feedbackFilter = 0x0; // 
             public const nint m_bPhaseInvert = 0x10; // bool
             public const nint m_flGlideTime = 0x14; // float32
             public const nint m_flDelay = 0x18; // float32
@@ -478,7 +478,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flModDepth = 0x10; // float32
             public const nint m_flModRate = 0x14; // float32
             public const nint m_bParallel = 0x18; // bool
-            public const nint m_filterType = 0x1C; // VMixFilterDesc_t
+            public const nint m_filterType = 0x1C; // 
             public const nint m_flWidth = 0x2C; // float32
             public const nint m_flHeight = 0x30; // float32
             public const nint m_flDepth = 0x34; // float32
@@ -641,7 +641,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class VMixDelayDesc_t {
-            public const nint m_feedbackFilter = 0x0; // VMixFilterDesc_t
+            public const nint m_feedbackFilter = 0x0; // 
             public const nint m_bEnableFilter = 0x10; // bool
             public const nint m_flDelay = 0x14; // float32
             public const nint m_flDirectGain = 0x18; // float32
@@ -655,7 +655,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class VMixEQ8Desc_t {
-            public const nint m_stages = 0x0; // VMixFilterDesc_t[8]
+            public const nint m_stages = 0x0; // 
         }
         // Parent: None
         // Field count: 3
@@ -915,7 +915,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flEnvelopeAmount = 0x0; // float32
             public const nint m_flAttackTimeMS = 0x4; // float32
             public const nint m_flReleaseTimeMS = 0x8; // float32
-            public const nint m_filter = 0xC; // VMixFilterDesc_t
+            public const nint m_filter = 0xC; // 
             public const nint m_flLFOAmount = 0x1C; // float32
             public const nint m_flLFORate = 0x20; // float32
             public const nint m_flPhase = 0x24; // float32

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #pragma once
 
@@ -2490,7 +2490,7 @@ namespace cs2_dumper {
             // Metadata:
             // NetworkVarNames: m_hViewModel (CHandle<CBaseViewModel>)
             namespace CCSPlayer_ViewModelServices {
-                constexpr std::ptrdiff_t m_hViewModel = 0x40; // 
+                constexpr std::ptrdiff_t m_hViewModel = 0x40; // CHandle<CBaseViewModel>[3]
             }
             // Parent: CCSWeaponBase
             // Field count: 2
@@ -4367,9 +4367,9 @@ namespace cs2_dumper {
             namespace CAnimGraphNetworkedVariables {
                 constexpr std::ptrdiff_t m_PredNetBoolVariables = 0x8; // CNetworkUtlVectorBase<uint32>
                 constexpr std::ptrdiff_t m_PredNetByteVariables = 0x20; // CNetworkUtlVectorBase<uint8>
-                constexpr std::ptrdiff_t m_PredNetUInt16Variables = 0x38; // CNetworkUtlVectorBase<uint16>
-                constexpr std::ptrdiff_t m_PredNetIntVariables = 0x50; // CNetworkUtlVectorBase<int32>
-                constexpr std::ptrdiff_t m_PredNetUInt32Variables = 0x68; // CNetworkUtlVectorBase<uint32>
+                constexpr std::ptrdiff_t m_PredNetUInt16Variables = 0x38; // 
+                constexpr std::ptrdiff_t m_PredNetIntVariables = 0x50; // 
+                constexpr std::ptrdiff_t m_PredNetUInt32Variables = 0x68; // 
                 constexpr std::ptrdiff_t m_PredNetUInt64Variables = 0x80; // CNetworkUtlVectorBase<uint64>
                 constexpr std::ptrdiff_t m_PredNetFloatVariables = 0x98; // CNetworkUtlVectorBase<float32>
                 constexpr std::ptrdiff_t m_PredNetVectorVariables = 0xB0; // CNetworkUtlVectorBase<Vector>
@@ -4378,13 +4378,13 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OwnerOnlyPredNetBoolVariables = 0xF8; // CNetworkUtlVectorBase<uint32>
                 constexpr std::ptrdiff_t m_OwnerOnlyPredNetByteVariables = 0x110; // CNetworkUtlVectorBase<uint8>
                 constexpr std::ptrdiff_t m_OwnerOnlyPredNetUInt16Variables = 0x128; // CNetworkUtlVectorBase<uint16>
-                constexpr std::ptrdiff_t m_OwnerOnlyPredNetIntVariables = 0x140; // 
-                constexpr std::ptrdiff_t m_OwnerOnlyPredNetUInt32Variables = 0x158; // 
-                constexpr std::ptrdiff_t m_OwnerOnlyPredNetUInt64Variables = 0x170; // 
+                constexpr std::ptrdiff_t m_OwnerOnlyPredNetIntVariables = 0x140; // CNetworkUtlVectorBase<int32>
+                constexpr std::ptrdiff_t m_OwnerOnlyPredNetUInt32Variables = 0x158; // CNetworkUtlVectorBase<uint32>
+                constexpr std::ptrdiff_t m_OwnerOnlyPredNetUInt64Variables = 0x170; // CNetworkUtlVectorBase<uint64>
                 constexpr std::ptrdiff_t m_OwnerOnlyPredNetFloatVariables = 0x188; // CNetworkUtlVectorBase<float32>
                 constexpr std::ptrdiff_t m_OwnerOnlyPredNetVectorVariables = 0x1A0; // CNetworkUtlVectorBase<Vector>
-                constexpr std::ptrdiff_t m_OwnerOnlyPredNetQuaternionVariables = 0x1B8; // 
-                constexpr std::ptrdiff_t m_OwnerOnlyPredNetGlobalSymbolVariables = 0x1D0; // 
+                constexpr std::ptrdiff_t m_OwnerOnlyPredNetQuaternionVariables = 0x1B8; // CNetworkUtlVectorBase<Quaternion>
+                constexpr std::ptrdiff_t m_OwnerOnlyPredNetGlobalSymbolVariables = 0x1D0; // CNetworkUtlVectorBase<CGlobalSymbol>
                 constexpr std::ptrdiff_t m_nBoolVariablesCount = 0x1E8; // int32
                 constexpr std::ptrdiff_t m_nOwnerOnlyBoolVariablesCount = 0x1EC; // int32
                 constexpr std::ptrdiff_t m_nRandomSeedOffset = 0x1F0; // int32
@@ -6705,7 +6705,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDissolveStartTime = 0x554; // GameTime_t
                 constexpr std::ptrdiff_t m_OnIgnite = 0x558; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_nRenderMode = 0x580; // 
-                constexpr std::ptrdiff_t m_nRenderFX = 0x581; // RenderFx_t
+                constexpr std::ptrdiff_t m_nRenderFX = 0x581; // 
                 constexpr std::ptrdiff_t m_bAllowFadeInView = 0x582; // bool
                 constexpr std::ptrdiff_t m_clrRender = 0x5A0; // Color
                 constexpr std::ptrdiff_t m_vecRenderAttributes = 0x5A8; // CUtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
@@ -7530,7 +7530,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bIsQuestEligible = 0x949; // bool
                 constexpr std::ptrdiff_t m_bIsHltvActive = 0x94A; // bool
                 constexpr std::ptrdiff_t m_arrProhibitedItemIndices = 0x94C; // uint16[100]
-                constexpr std::ptrdiff_t m_arrTournamentActiveCasterAccounts = 0xA14; // uint32[4]
+                constexpr std::ptrdiff_t m_arrTournamentActiveCasterAccounts = 0xA14; // 
                 constexpr std::ptrdiff_t m_numBestOfMaps = 0xA24; // int32
                 constexpr std::ptrdiff_t m_nHalloweenMaskListSeed = 0xA28; // int32
                 constexpr std::ptrdiff_t m_bBombDropped = 0xA2C; // bool
@@ -9493,10 +9493,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_worldGroupId = 0x38; // WorldGroupId_t
                 constexpr std::ptrdiff_t m_fDataObjectTypes = 0x3C; // uint32
                 constexpr std::ptrdiff_t m_PathIndex = 0x40; // ChangeAccessorFieldPathIndex_t
-                constexpr std::ptrdiff_t m_pPrev = 0x58; // 
-                constexpr std::ptrdiff_t m_pNext = 0x60; // 
-                constexpr std::ptrdiff_t m_pPrevByClass = 0x68; // 
-                constexpr std::ptrdiff_t m_pNextByClass = 0x70; // 
+                constexpr std::ptrdiff_t m_pPrev = 0x58; // CEntityIdentity*
+                constexpr std::ptrdiff_t m_pNext = 0x60; // CEntityIdentity*
+                constexpr std::ptrdiff_t m_pPrevByClass = 0x68; // CEntityIdentity*
+                constexpr std::ptrdiff_t m_pNextByClass = 0x70; // CEntityIdentity*
             }
             // Parent: CBaseToggle
             // Field count: 3
@@ -10543,8 +10543,8 @@ namespace cs2_dumper {
             // NetworkVarNames: m_CScriptComponent (CScriptComponent::Storage_t)
             namespace CEntityInstance {
                 constexpr std::ptrdiff_t m_iszPrivateVScripts = 0x8; // CUtlSymbolLarge
-                constexpr std::ptrdiff_t m_pEntity = 0x10; // 
-                constexpr std::ptrdiff_t m_CScriptComponent = 0x28; // 
+                constexpr std::ptrdiff_t m_pEntity = 0x10; // CEntityIdentity*
+                constexpr std::ptrdiff_t m_CScriptComponent = 0x28; // CScriptComponent*
                 constexpr std::ptrdiff_t m_bVisibleinPVS = 0x30; // bool
             }
             // Parent: CBaseEntity

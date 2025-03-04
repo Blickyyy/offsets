@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #pragma once
 
@@ -460,7 +460,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace VMixModDelayDesc_t {
-                constexpr std::ptrdiff_t m_feedbackFilter = 0x0; // VMixFilterDesc_t
+                constexpr std::ptrdiff_t m_feedbackFilter = 0x0; // 
                 constexpr std::ptrdiff_t m_bPhaseInvert = 0x10; // bool
                 constexpr std::ptrdiff_t m_flGlideTime = 0x14; // float32
                 constexpr std::ptrdiff_t m_flDelay = 0x18; // float32
@@ -483,7 +483,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flModDepth = 0x10; // float32
                 constexpr std::ptrdiff_t m_flModRate = 0x14; // float32
                 constexpr std::ptrdiff_t m_bParallel = 0x18; // bool
-                constexpr std::ptrdiff_t m_filterType = 0x1C; // VMixFilterDesc_t
+                constexpr std::ptrdiff_t m_filterType = 0x1C; // 
                 constexpr std::ptrdiff_t m_flWidth = 0x2C; // float32
                 constexpr std::ptrdiff_t m_flHeight = 0x30; // float32
                 constexpr std::ptrdiff_t m_flDepth = 0x34; // float32
@@ -646,7 +646,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace VMixDelayDesc_t {
-                constexpr std::ptrdiff_t m_feedbackFilter = 0x0; // VMixFilterDesc_t
+                constexpr std::ptrdiff_t m_feedbackFilter = 0x0; // 
                 constexpr std::ptrdiff_t m_bEnableFilter = 0x10; // bool
                 constexpr std::ptrdiff_t m_flDelay = 0x14; // float32
                 constexpr std::ptrdiff_t m_flDirectGain = 0x18; // float32
@@ -660,7 +660,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace VMixEQ8Desc_t {
-                constexpr std::ptrdiff_t m_stages = 0x0; // VMixFilterDesc_t[8]
+                constexpr std::ptrdiff_t m_stages = 0x0; // 
             }
             // Parent: None
             // Field count: 3
@@ -920,7 +920,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flEnvelopeAmount = 0x0; // float32
                 constexpr std::ptrdiff_t m_flAttackTimeMS = 0x4; // float32
                 constexpr std::ptrdiff_t m_flReleaseTimeMS = 0x8; // float32
-                constexpr std::ptrdiff_t m_filter = 0xC; // VMixFilterDesc_t
+                constexpr std::ptrdiff_t m_filter = 0xC; // 
                 constexpr std::ptrdiff_t m_flLFOAmount = 0x1C; // float32
                 constexpr std::ptrdiff_t m_flLFORate = 0x20; // float32
                 constexpr std::ptrdiff_t m_flPhase = 0x24; // float32

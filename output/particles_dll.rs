@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2048,7 +2048,7 @@ pub mod cs2_dumper {
                 pub const m_flUVOffset: usize = 0x8B8; // CParticleCollectionFloatInput
                 pub const m_flSplitRate: usize = 0xA18; // CParticleCollectionFloatInput
                 pub const m_flBranchTwist: usize = 0xB78; // CParticleCollectionFloatInput
-                pub const m_nBranchBehavior: usize = 0xCD8; // 
+                pub const m_nBranchBehavior: usize = 0xCD8; // ParticleLightnintBranchBehavior_t
                 pub const m_flRadiusStart: usize = 0xCE0; // CParticleCollectionFloatInput
                 pub const m_flRadiusEnd: usize = 0xE40; // CParticleCollectionFloatInput
                 pub const m_flDedicatedPool: usize = 0xFA0; // CParticleCollectionFloatInput
@@ -5573,7 +5573,7 @@ pub mod cs2_dumper {
                 pub const m_hTexture: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Gradient: usize = 0x10; // CColorGradient
                 pub const m_nTextureType: usize = 0x28; // SpriteCardTextureType_t
-                pub const m_nTextureChannels: usize = 0x2C; // SpriteCardTextureChannel_t
+                pub const m_nTextureChannels: usize = 0x2C; // 
                 pub const m_nTextureBlendMode: usize = 0x30; // ParticleTextureLayerBlendType_t
                 pub const m_flTextureBlend: usize = 0x38; // CParticleCollectionRendererFloatInput
                 pub const m_TextureControls: usize = 0x198; // TextureControls_t

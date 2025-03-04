@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #pragma once
 
@@ -1081,8 +1081,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Vars = 0x68; // CUtlVector<CPulse_Variable>
                 constexpr std::ptrdiff_t m_PublicOutputs = 0x80; // CUtlVector<CPulse_PublicOutput>
                 constexpr std::ptrdiff_t m_InvokeBindings = 0x98; // CUtlVector<CPulse_InvokeBinding*>
-                constexpr std::ptrdiff_t m_CallInfos = 0xB0; // CUtlVector<CPulse_CallInfo*>
-                constexpr std::ptrdiff_t m_Constants = 0xC8; // CUtlVector<CPulse_Constant>
+                constexpr std::ptrdiff_t m_CallInfos = 0xB0; // 
+                constexpr std::ptrdiff_t m_Constants = 0xC8; // 
                 constexpr std::ptrdiff_t m_DomainValues = 0xE0; // CUtlVector<CPulse_DomainValue>
                 constexpr std::ptrdiff_t m_BlackboardReferences = 0xF8; // CUtlVector<CPulse_BlackboardReference>
                 constexpr std::ptrdiff_t m_OutputConnections = 0x110; // CUtlVector<CPulse_OutputConnection*>

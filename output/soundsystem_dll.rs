@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -471,7 +471,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod VMixModDelayDesc_t {
-                pub const m_feedbackFilter: usize = 0x0; // VMixFilterDesc_t
+                pub const m_feedbackFilter: usize = 0x0; // 
                 pub const m_bPhaseInvert: usize = 0x10; // bool
                 pub const m_flGlideTime: usize = 0x14; // float32
                 pub const m_flDelay: usize = 0x18; // float32
@@ -494,7 +494,7 @@ pub mod cs2_dumper {
                 pub const m_flModDepth: usize = 0x10; // float32
                 pub const m_flModRate: usize = 0x14; // float32
                 pub const m_bParallel: usize = 0x18; // bool
-                pub const m_filterType: usize = 0x1C; // VMixFilterDesc_t
+                pub const m_filterType: usize = 0x1C; // 
                 pub const m_flWidth: usize = 0x2C; // float32
                 pub const m_flHeight: usize = 0x30; // float32
                 pub const m_flDepth: usize = 0x34; // float32
@@ -657,7 +657,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod VMixDelayDesc_t {
-                pub const m_feedbackFilter: usize = 0x0; // VMixFilterDesc_t
+                pub const m_feedbackFilter: usize = 0x0; // 
                 pub const m_bEnableFilter: usize = 0x10; // bool
                 pub const m_flDelay: usize = 0x14; // float32
                 pub const m_flDirectGain: usize = 0x18; // float32
@@ -671,7 +671,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod VMixEQ8Desc_t {
-                pub const m_stages: usize = 0x0; // VMixFilterDesc_t[8]
+                pub const m_stages: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 3
@@ -931,7 +931,7 @@ pub mod cs2_dumper {
                 pub const m_flEnvelopeAmount: usize = 0x0; // float32
                 pub const m_flAttackTimeMS: usize = 0x4; // float32
                 pub const m_flReleaseTimeMS: usize = 0x8; // float32
-                pub const m_filter: usize = 0xC; // VMixFilterDesc_t
+                pub const m_filter: usize = 0xC; // 
                 pub const m_flLFOAmount: usize = 0x1C; // float32
                 pub const m_flLFORate: usize = 0x20; // float32
                 pub const m_flPhase: usize = 0x24; // float32

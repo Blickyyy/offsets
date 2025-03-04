@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #pragma once
 
@@ -163,8 +163,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_visClusterMembership = 0x30; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_aggregateSceneObjects = 0x48; // CUtlVector<AggregateSceneObject_t>
                 constexpr std::ptrdiff_t m_clutterSceneObjects = 0x60; // CUtlVector<ClutterSceneObject_t>
-                constexpr std::ptrdiff_t m_extraVertexStreamOverrides = 0x78; // CUtlVector<ExtraVertexStreamOverride_t>
-                constexpr std::ptrdiff_t m_materialOverrides = 0x90; // CUtlVector<MaterialOverride_t>
+                constexpr std::ptrdiff_t m_extraVertexStreamOverrides = 0x78; // 
+                constexpr std::ptrdiff_t m_materialOverrides = 0x90; // 
                 constexpr std::ptrdiff_t m_extraVertexStreams = 0xA8; // CUtlVector<WorldNodeOnDiskBufferData_t>
                 constexpr std::ptrdiff_t m_layerNames = 0xC0; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_sceneObjectLayerIndices = 0xD8; // CUtlVector<uint8>

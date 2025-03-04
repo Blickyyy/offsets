@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -348,7 +348,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bIsQuestEligible = 0x8C1; // bool
             public const nint m_bIsHltvActive = 0x8C2; // bool
             public const nint m_arrProhibitedItemIndices = 0x8C4; // uint16[100]
-            public const nint m_arrTournamentActiveCasterAccounts = 0x98C; // uint32[4]
+            public const nint m_arrTournamentActiveCasterAccounts = 0x98C; // 
             public const nint m_numBestOfMaps = 0x99C; // int32
             public const nint m_nHalloweenMaskListSeed = 0x9A0; // int32
             public const nint m_bBombDropped = 0x9A4; // bool
@@ -448,7 +448,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nDecalsAdded = 0xAB0; // int32
             public const nint m_iOldHealth = 0xAB4; // int32
             public const nint m_nRenderMode = 0xAB8; // 
-            public const nint m_nRenderFX = 0xAB9; // RenderFx_t
+            public const nint m_nRenderFX = 0xAB9; // 
             public const nint m_bAllowFadeInView = 0xABA; // bool
             public const nint m_clrRender = 0xAD8; // Color
             public const nint m_vecRenderAttributes = 0xAE0; // C_UtlVectorEmbeddedNetworkVar<EntityRenderAttribute_t>
@@ -709,13 +709,13 @@ namespace CS2Dumper.Schemas {
             public const nint m_PlayerFog = 0x58; // C_fogplayerparams_t
             public const nint m_hColorCorrectionCtrl = 0x98; // CHandle<C_ColorCorrection>
             public const nint m_hViewEntity = 0x9C; // CHandle<C_BaseEntity>
-            public const nint m_hTonemapController = 0xA0; // CHandle<C_TonemapController2>
+            public const nint m_hTonemapController = 0xA0; // 
             public const nint m_audio = 0xA8; // audioparams_t
             public const nint m_PostProcessingVolumes = 0x120; // C_NetworkUtlVectorBase<CHandle<C_PostProcessingVolume>>
             public const nint m_flOldPlayerZ = 0x138; // float32
             public const nint m_flOldPlayerViewOffsetZ = 0x13C; // float32
             public const nint m_CurrentFog = 0x140; // fogparams_t
-            public const nint m_hOldFogController = 0x1A8; // CHandle<C_FogController>
+            public const nint m_hOldFogController = 0x1A8; // 
             public const nint m_bOverrideFogColor = 0x1AC; // bool[5]
             public const nint m_OverrideFogColor = 0x1B1; // Color[5]
             public const nint m_bOverrideFogStartEnd = 0x1C5; // bool[5]
@@ -793,7 +793,7 @@ namespace CS2Dumper.Schemas {
         // Parent: CEntityComponent
         // Field count: 2
         public static class CBodyComponent {
-            public const nint m_pSceneNode = 0x8; // CGameSceneNode*
+            public const nint m_pSceneNode = 0x8; // 
             public const nint __m_pChainEntity = 0x20; // CNetworkVarChainer
         }
         // Parent: C_SoundAreaEntityBase
@@ -2059,7 +2059,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // NetworkVarNames: m_hCtrl (CHandle<CFogController>)
         public static class C_fogplayerparams_t {
-            public const nint m_hCtrl = 0x8; // CHandle<C_FogController>
+            public const nint m_hCtrl = 0x8; // 
             public const nint m_flTransitionTime = 0xC; // float32
             public const nint m_OldColor = 0x10; // Color
             public const nint m_flOldStart = 0x14; // float32
@@ -2698,9 +2698,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_pObserverServices = 0x11C0; // CPlayer_ObserverServices*
             public const nint m_pWaterServices = 0x11C8; // CPlayer_WaterServices*
             public const nint m_pUseServices = 0x11D0; // CPlayer_UseServices*
-            public const nint m_pFlashlightServices = 0x11D8; // 
-            public const nint m_pCameraServices = 0x11E0; // 
-            public const nint m_pMovementServices = 0x11E8; // 
+            public const nint m_pFlashlightServices = 0x11D8; // CPlayer_FlashlightServices*
+            public const nint m_pCameraServices = 0x11E0; // CPlayer_CameraServices*
+            public const nint m_pMovementServices = 0x11E8; // CPlayer_MovementServices*
             public const nint m_ServerViewAngleChanges = 0x11F8; // C_UtlVectorEmbeddedNetworkVar<ViewAngleServerChange_t>
             public const nint m_nHighestConsumedServerViewAngleChangeIndex = 0x1248; // uint32
             public const nint v_angle = 0x124C; // QAngle
@@ -5803,7 +5803,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_CBodyComponent = 0x38; // CBodyComponent*
             public const nint m_NetworkTransmitComponent = 0x40; // CNetworkTransmitComponent
             public const nint m_nLastThinkTick = 0x320; // GameTick_t
-            public const nint m_pGameSceneNode = 0x328; // CGameSceneNode*
+            public const nint m_pGameSceneNode = 0x328; // 
             public const nint m_pRenderComponent = 0x330; // CRenderComponent*
             public const nint m_pCollision = 0x338; // CCollisionProperty*
             public const nint m_iMaxHealth = 0x340; // int32
@@ -6565,9 +6565,9 @@ namespace CS2Dumper.Schemas {
         public static class CGameSceneNode {
             public const nint m_nodeToWorld = 0x10; // CTransform
             public const nint m_pOwner = 0x30; // CEntityInstance*
-            public const nint m_pParent = 0x38; // CGameSceneNode*
-            public const nint m_pChild = 0x40; // CGameSceneNode*
-            public const nint m_pNextSibling = 0x48; // CGameSceneNode*
+            public const nint m_pParent = 0x38; // 
+            public const nint m_pChild = 0x40; // 
+            public const nint m_pNextSibling = 0x48; // 
             public const nint m_hParent = 0x78; // CGameSceneNodeHandle
             public const nint m_vecOrigin = 0x88; // CNetworkOriginCellCoordQuantizedVector
             public const nint m_angRotation = 0xC0; // QAngle
@@ -6661,7 +6661,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flObsInterp_PathLength = 0x74; // float32
             public const nint m_qObsInterp_OrientationStart = 0x80; // Quaternion
             public const nint m_qObsInterp_OrientationTravelDir = 0x90; // Quaternion
-            public const nint m_obsInterpState = 0xA0; // 
+            public const nint m_obsInterpState = 0xA0; // ObserverInterpState_t
             public const nint m_bObserverInterpolationNeedsDeferredSetup = 0xA4; // bool
         }
         // Parent: C_BaseEntity

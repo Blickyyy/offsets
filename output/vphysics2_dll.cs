@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: vphysics2.dll
@@ -145,7 +145,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_FitMatrices = 0x3D8; // CUtlVector<FeFitMatrix_t>
             public const nint m_FitWeights = 0x3F0; // CUtlVector<FeFitWeight_t>
             public const nint m_ReverseOffsets = 0x408; // CUtlVector<FeNodeReverseOffset_t>
-            public const nint m_AnimStrayRadii = 0x420; // 
+            public const nint m_AnimStrayRadii = 0x420; // CUtlVector<FeAnimStrayRadius_t>
             public const nint m_SimdAnimStrayRadii = 0x438; // CUtlVector<FeSimdAnimStrayRadius_t>
             public const nint m_KelagerBends = 0x450; // CUtlVector<FeKelagerBend2_t>
             public const nint m_CtrlSoftOffsets = 0x468; // CUtlVector<FeCtrlSoftOffset_t>

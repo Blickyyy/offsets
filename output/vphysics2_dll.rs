@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-02-28 01:20:06.675145600 UTC
+// 2025-03-04 22:57:48.241446500 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -150,7 +150,7 @@ pub mod cs2_dumper {
                 pub const m_FitMatrices: usize = 0x3D8; // CUtlVector<FeFitMatrix_t>
                 pub const m_FitWeights: usize = 0x3F0; // CUtlVector<FeFitWeight_t>
                 pub const m_ReverseOffsets: usize = 0x408; // CUtlVector<FeNodeReverseOffset_t>
-                pub const m_AnimStrayRadii: usize = 0x420; // 
+                pub const m_AnimStrayRadii: usize = 0x420; // CUtlVector<FeAnimStrayRadius_t>
                 pub const m_SimdAnimStrayRadii: usize = 0x438; // CUtlVector<FeSimdAnimStrayRadius_t>
                 pub const m_KelagerBends: usize = 0x450; // CUtlVector<FeKelagerBend2_t>
                 pub const m_CtrlSoftOffsets: usize = 0x468; // CUtlVector<FeCtrlSoftOffset_t>
