@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-04 22:57:48.241446500 UTC
+// 2025-03-31 16:43:50.028184300 UTC
 
 #pragma once
 
@@ -92,7 +92,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_anyFlags = 0x4; // ObjectTypeFlags_t
                 constexpr std::ptrdiff_t m_nLayer = 0x8; // int16
                 constexpr std::ptrdiff_t m_aggregateMeshes = 0x10; // CUtlVector<AggregateMeshInfo_t>
-                constexpr std::ptrdiff_t m_lodSetups = 0x28; // CUtlVector<AggregateLODSetup_t>
+                constexpr std::ptrdiff_t m_lodSetups = 0x28; // 
                 constexpr std::ptrdiff_t m_visClusterMembership = 0x40; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_fragmentTransforms = 0x58; // CUtlVector<matrix3x4_t>
                 constexpr std::ptrdiff_t m_renderableModel = 0x70; // CStrongHandle<InfoForResourceTypeCModel>
@@ -163,8 +163,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_visClusterMembership = 0x30; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_aggregateSceneObjects = 0x48; // CUtlVector<AggregateSceneObject_t>
                 constexpr std::ptrdiff_t m_clutterSceneObjects = 0x60; // CUtlVector<ClutterSceneObject_t>
-                constexpr std::ptrdiff_t m_extraVertexStreamOverrides = 0x78; // 
-                constexpr std::ptrdiff_t m_materialOverrides = 0x90; // 
+                constexpr std::ptrdiff_t m_extraVertexStreamOverrides = 0x78; // CUtlVector<ExtraVertexStreamOverride_t>
+                constexpr std::ptrdiff_t m_materialOverrides = 0x90; // CUtlVector<MaterialOverride_t>
                 constexpr std::ptrdiff_t m_extraVertexStreams = 0xA8; // CUtlVector<WorldNodeOnDiskBufferData_t>
                 constexpr std::ptrdiff_t m_layerNames = 0xC0; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_sceneObjectLayerIndices = 0xD8; // CUtlVector<uint8>

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-04 22:57:48.241446500 UTC
+// 2025-03-31 16:43:50.028184300 UTC
 
 #pragma once
 
@@ -4203,7 +4203,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderOmni2Light {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
                 constexpr std::ptrdiff_t m_vColorBlend = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
@@ -5235,7 +5235,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nPriority = 0x1258; // int32
                 constexpr std::ptrdiff_t m_nFogLightingMode = 0x125C; // ParticleLightFogLightingMode_t
                 constexpr std::ptrdiff_t m_flFogContribution = 0x1260; // CParticleCollectionRendererFloatInput
-                constexpr std::ptrdiff_t m_nCapsuleLightBehavior = 0x13C0; // ParticleLightBehaviorChoiceList_t
+                constexpr std::ptrdiff_t m_nCapsuleLightBehavior = 0x13C0; // 
                 constexpr std::ptrdiff_t m_flCapsuleLength = 0x13C4; // float32
                 constexpr std::ptrdiff_t m_bReverseOrder = 0x13C8; // bool
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x13C9; // bool
@@ -5499,7 +5499,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hTexture = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_Gradient = 0x10; // CColorGradient
                 constexpr std::ptrdiff_t m_nTextureType = 0x28; // SpriteCardTextureType_t
-                constexpr std::ptrdiff_t m_nTextureChannels = 0x2C; // 
+                constexpr std::ptrdiff_t m_nTextureChannels = 0x2C; // SpriteCardTextureChannel_t
                 constexpr std::ptrdiff_t m_nTextureBlendMode = 0x30; // ParticleTextureLayerBlendType_t
                 constexpr std::ptrdiff_t m_flTextureBlend = 0x38; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_TextureControls = 0x198; // TextureControls_t

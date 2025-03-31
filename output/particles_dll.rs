@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-04 22:57:48.241446500 UTC
+// 2025-03-31 16:43:50.028184300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -4277,7 +4277,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderOmni2Light {
-                pub const m_nLightType: usize = 0x210; // ParticleOmni2LightTypeChoiceList_t
+                pub const m_nLightType: usize = 0x210; // 
                 pub const m_vColorBlend: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_nBrightnessUnit: usize = 0x894; // ParticleLightUnitChoiceList_t
@@ -5309,7 +5309,7 @@ pub mod cs2_dumper {
                 pub const m_nPriority: usize = 0x1258; // int32
                 pub const m_nFogLightingMode: usize = 0x125C; // ParticleLightFogLightingMode_t
                 pub const m_flFogContribution: usize = 0x1260; // CParticleCollectionRendererFloatInput
-                pub const m_nCapsuleLightBehavior: usize = 0x13C0; // ParticleLightBehaviorChoiceList_t
+                pub const m_nCapsuleLightBehavior: usize = 0x13C0; // 
                 pub const m_flCapsuleLength: usize = 0x13C4; // float32
                 pub const m_bReverseOrder: usize = 0x13C8; // bool
                 pub const m_bClosedLoop: usize = 0x13C9; // bool
@@ -5573,7 +5573,7 @@ pub mod cs2_dumper {
                 pub const m_hTexture: usize = 0x8; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 pub const m_Gradient: usize = 0x10; // CColorGradient
                 pub const m_nTextureType: usize = 0x28; // SpriteCardTextureType_t
-                pub const m_nTextureChannels: usize = 0x2C; // 
+                pub const m_nTextureChannels: usize = 0x2C; // SpriteCardTextureChannel_t
                 pub const m_nTextureBlendMode: usize = 0x30; // ParticleTextureLayerBlendType_t
                 pub const m_flTextureBlend: usize = 0x38; // CParticleCollectionRendererFloatInput
                 pub const m_TextureControls: usize = 0x198; // TextureControls_t

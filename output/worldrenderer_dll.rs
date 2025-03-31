@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-04 22:57:48.241446500 UTC
+// 2025-03-31 16:43:50.028184300 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -91,7 +91,7 @@ pub mod cs2_dumper {
                 pub const m_anyFlags: usize = 0x4; // ObjectTypeFlags_t
                 pub const m_nLayer: usize = 0x8; // int16
                 pub const m_aggregateMeshes: usize = 0x10; // CUtlVector<AggregateMeshInfo_t>
-                pub const m_lodSetups: usize = 0x28; // CUtlVector<AggregateLODSetup_t>
+                pub const m_lodSetups: usize = 0x28; // 
                 pub const m_visClusterMembership: usize = 0x40; // CUtlVector<uint16>
                 pub const m_fragmentTransforms: usize = 0x58; // CUtlVector<matrix3x4_t>
                 pub const m_renderableModel: usize = 0x70; // CStrongHandle<InfoForResourceTypeCModel>
@@ -162,8 +162,8 @@ pub mod cs2_dumper {
                 pub const m_visClusterMembership: usize = 0x30; // CUtlVector<uint16>
                 pub const m_aggregateSceneObjects: usize = 0x48; // CUtlVector<AggregateSceneObject_t>
                 pub const m_clutterSceneObjects: usize = 0x60; // CUtlVector<ClutterSceneObject_t>
-                pub const m_extraVertexStreamOverrides: usize = 0x78; // 
-                pub const m_materialOverrides: usize = 0x90; // 
+                pub const m_extraVertexStreamOverrides: usize = 0x78; // CUtlVector<ExtraVertexStreamOverride_t>
+                pub const m_materialOverrides: usize = 0x90; // CUtlVector<MaterialOverride_t>
                 pub const m_extraVertexStreams: usize = 0xA8; // CUtlVector<WorldNodeOnDiskBufferData_t>
                 pub const m_layerNames: usize = 0xC0; // CUtlVector<CUtlString>
                 pub const m_sceneObjectLayerIndices: usize = 0xD8; // CUtlVector<uint8>
