@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #pragma once
 
@@ -982,7 +982,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vMinBounds = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vMaxBounds = 0xC; // Vector
                 constexpr std::ptrdiff_t m_drawCalls = 0x18; // CUtlLeanVector<CMaterialDrawDescriptor>
-                constexpr std::ptrdiff_t m_drawBounds = 0x28; // 
+                constexpr std::ptrdiff_t m_drawBounds = 0x28; // CUtlLeanVector<AABB_t>
                 constexpr std::ptrdiff_t m_meshlets = 0x38; // CUtlLeanVector<CMeshletDescriptor>
                 constexpr std::ptrdiff_t m_vTintColor = 0x48; // Vector4D
             }
@@ -1372,7 +1372,7 @@ namespace cs2_dumper {
             namespace CMotionGraph {
                 constexpr std::ptrdiff_t m_paramSpans = 0x10; // CParamSpanUpdater
                 constexpr std::ptrdiff_t m_tags = 0x28; // CUtlVector<TagSpan_t>
-                constexpr std::ptrdiff_t m_pRootNode = 0x40; // 
+                constexpr std::ptrdiff_t m_pRootNode = 0x40; // CSmartPtr<CMotionNode>
                 constexpr std::ptrdiff_t m_nParameterCount = 0x48; // int32
                 constexpr std::ptrdiff_t m_nConfigStartIndex = 0x4C; // int32
                 constexpr std::ptrdiff_t m_nConfigCount = 0x50; // int32
@@ -3839,7 +3839,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CAnimReplayFrame {
-                constexpr std::ptrdiff_t m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
+                constexpr std::ptrdiff_t m_inputDataBlocks = 0x10; // 
                 constexpr std::ptrdiff_t m_instanceData = 0x28; // CUtlBinaryBlock
                 constexpr std::ptrdiff_t m_startingLocalToWorldTransform = 0x40; // CTransform
                 constexpr std::ptrdiff_t m_localToWorldTransform = 0x60; // CTransform
@@ -4132,7 +4132,7 @@ namespace cs2_dumper {
             namespace CHitBoxSet {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_nNameHash = 0x8; // uint32
-                constexpr std::ptrdiff_t m_HitBoxes = 0x10; // 
+                constexpr std::ptrdiff_t m_HitBoxes = 0x10; // CUtlVector<CHitBox>
                 constexpr std::ptrdiff_t m_SourceFilename = 0x28; // CUtlString
             }
             // Parent: None
@@ -4289,7 +4289,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CNmParameterizedBlendNode__Parameterization_t {
                 constexpr std::ptrdiff_t m_blendRanges = 0x0; // CUtlLeanVectorFixedGrowable<CNmParameterizedBlendNode::BlendRange_t,5>
-                constexpr std::ptrdiff_t m_parameterRange = 0x48; // 
+                constexpr std::ptrdiff_t m_parameterRange = 0x48; // Range_t
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 1
@@ -4306,7 +4306,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CMeshletDescriptor {
                 constexpr std::ptrdiff_t m_PackedAABB = 0x0; // PackedAABB_t
-                constexpr std::ptrdiff_t m_CullingData = 0x8; // CDrawCullingData
+                constexpr std::ptrdiff_t m_CullingData = 0x8; // 
             }
             // Parent: None
             // Field count: 8
@@ -4718,7 +4718,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CNmFloatRangeComparisonNode__CDefinition {
-                constexpr std::ptrdiff_t m_range = 0x10; // 
+                constexpr std::ptrdiff_t m_range = 0x10; // Range_t
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x18; // int16
                 constexpr std::ptrdiff_t m_bIsInclusiveCheck = 0x1A; // bool
             }
@@ -5062,7 +5062,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace MotionBlendItem {
-                constexpr std::ptrdiff_t m_pChild = 0x0; // 
+                constexpr std::ptrdiff_t m_pChild = 0x0; // CSmartPtr<CMotionNode>
                 constexpr std::ptrdiff_t m_flKeyValue = 0x8; // float32
             }
             // Parent: CBoneConstraintBase
@@ -5147,7 +5147,7 @@ namespace cs2_dumper {
             // MGetKV3ClassDefaults
             namespace CNmFloatClampNode__CDefinition {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x10; // int16
-                constexpr std::ptrdiff_t m_clampRange = 0x14; // 
+                constexpr std::ptrdiff_t m_clampRange = 0x14; // Range_t
             }
             // Parent: None
             // Field count: 15
@@ -5809,7 +5809,7 @@ namespace cs2_dumper {
             namespace CNmAnimationPoseNode__CDefinition {
                 constexpr std::ptrdiff_t m_nPoseTimeValueNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_nDataSlotIdx = 0x12; // int16
-                constexpr std::ptrdiff_t m_inputTimeRemapRange = 0x14; // 
+                constexpr std::ptrdiff_t m_inputTimeRemapRange = 0x14; // Range_t
                 constexpr std::ptrdiff_t m_flUserSpecifiedTime = 0x1C; // float32
                 constexpr std::ptrdiff_t m_bUseFramesAsInput = 0x20; // bool
             }
@@ -6125,7 +6125,7 @@ namespace cs2_dumper {
             namespace CNmParameterizedBlendNode__BlendRange_t {
                 constexpr std::ptrdiff_t m_nInputIdx0 = 0x0; // int16
                 constexpr std::ptrdiff_t m_nInputIdx1 = 0x2; // int16
-                constexpr std::ptrdiff_t m_parameterValueRange = 0x4; // 
+                constexpr std::ptrdiff_t m_parameterValueRange = 0x4; // Range_t
             }
             // Parent: None
             // Field count: 6

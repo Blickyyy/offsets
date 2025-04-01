@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -977,7 +977,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vMinBounds = 0x0; // Vector
             public const nint m_vMaxBounds = 0xC; // Vector
             public const nint m_drawCalls = 0x18; // CUtlLeanVector<CMaterialDrawDescriptor>
-            public const nint m_drawBounds = 0x28; // 
+            public const nint m_drawBounds = 0x28; // CUtlLeanVector<AABB_t>
             public const nint m_meshlets = 0x38; // CUtlLeanVector<CMeshletDescriptor>
             public const nint m_vTintColor = 0x48; // Vector4D
         }
@@ -1367,7 +1367,7 @@ namespace CS2Dumper.Schemas {
         public static class CMotionGraph {
             public const nint m_paramSpans = 0x10; // CParamSpanUpdater
             public const nint m_tags = 0x28; // CUtlVector<TagSpan_t>
-            public const nint m_pRootNode = 0x40; // 
+            public const nint m_pRootNode = 0x40; // CSmartPtr<CMotionNode>
             public const nint m_nParameterCount = 0x48; // int32
             public const nint m_nConfigStartIndex = 0x4C; // int32
             public const nint m_nConfigCount = 0x50; // int32
@@ -3834,7 +3834,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimReplayFrame {
-            public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
+            public const nint m_inputDataBlocks = 0x10; // 
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
             public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
             public const nint m_localToWorldTransform = 0x60; // CTransform
@@ -4127,7 +4127,7 @@ namespace CS2Dumper.Schemas {
         public static class CHitBoxSet {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_nNameHash = 0x8; // uint32
-            public const nint m_HitBoxes = 0x10; // 
+            public const nint m_HitBoxes = 0x10; // CUtlVector<CHitBox>
             public const nint m_SourceFilename = 0x28; // CUtlString
         }
         // Parent: None
@@ -4284,7 +4284,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CNmParameterizedBlendNode__Parameterization_t {
             public const nint m_blendRanges = 0x0; // CUtlLeanVectorFixedGrowable<CNmParameterizedBlendNode::BlendRange_t,5>
-            public const nint m_parameterRange = 0x48; // 
+            public const nint m_parameterRange = 0x48; // Range_t
         }
         // Parent: CNmBoolValueNode__CDefinition
         // Field count: 1
@@ -4301,7 +4301,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CMeshletDescriptor {
             public const nint m_PackedAABB = 0x0; // PackedAABB_t
-            public const nint m_CullingData = 0x8; // CDrawCullingData
+            public const nint m_CullingData = 0x8; // 
         }
         // Parent: None
         // Field count: 8
@@ -4713,7 +4713,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CNmFloatRangeComparisonNode__CDefinition {
-            public const nint m_range = 0x10; // 
+            public const nint m_range = 0x10; // Range_t
             public const nint m_nInputValueNodeIdx = 0x18; // int16
             public const nint m_bIsInclusiveCheck = 0x1A; // bool
         }
@@ -5057,7 +5057,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class MotionBlendItem {
-            public const nint m_pChild = 0x0; // 
+            public const nint m_pChild = 0x0; // CSmartPtr<CMotionNode>
             public const nint m_flKeyValue = 0x8; // float32
         }
         // Parent: CBoneConstraintBase
@@ -5142,7 +5142,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CNmFloatClampNode__CDefinition {
             public const nint m_nInputValueNodeIdx = 0x10; // int16
-            public const nint m_clampRange = 0x14; // 
+            public const nint m_clampRange = 0x14; // Range_t
         }
         // Parent: None
         // Field count: 15
@@ -5804,7 +5804,7 @@ namespace CS2Dumper.Schemas {
         public static class CNmAnimationPoseNode__CDefinition {
             public const nint m_nPoseTimeValueNodeIdx = 0x10; // int16
             public const nint m_nDataSlotIdx = 0x12; // int16
-            public const nint m_inputTimeRemapRange = 0x14; // 
+            public const nint m_inputTimeRemapRange = 0x14; // Range_t
             public const nint m_flUserSpecifiedTime = 0x1C; // float32
             public const nint m_bUseFramesAsInput = 0x20; // bool
         }
@@ -6120,7 +6120,7 @@ namespace CS2Dumper.Schemas {
         public static class CNmParameterizedBlendNode__BlendRange_t {
             public const nint m_nInputIdx0 = 0x0; // int16
             public const nint m_nInputIdx1 = 0x2; // int16
-            public const nint m_parameterValueRange = 0x4; // 
+            public const nint m_parameterValueRange = 0x4; // Range_t
         }
         // Parent: None
         // Field count: 6

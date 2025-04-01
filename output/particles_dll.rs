@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -4277,7 +4277,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderOmni2Light {
-                pub const m_nLightType: usize = 0x210; // 
+                pub const m_nLightType: usize = 0x210; // ParticleOmni2LightTypeChoiceList_t
                 pub const m_vColorBlend: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_nBrightnessUnit: usize = 0x894; // ParticleLightUnitChoiceList_t
@@ -5291,7 +5291,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderStandardLight {
-                pub const m_nLightType: usize = 0x210; // ParticleLightTypeChoiceList_t
+                pub const m_nLightType: usize = 0x210; // 
                 pub const m_vecColorScale: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_flIntensity: usize = 0x898; // CParticleCollectionFloatInput
@@ -5309,7 +5309,7 @@ pub mod cs2_dumper {
                 pub const m_nPriority: usize = 0x1258; // int32
                 pub const m_nFogLightingMode: usize = 0x125C; // ParticleLightFogLightingMode_t
                 pub const m_flFogContribution: usize = 0x1260; // CParticleCollectionRendererFloatInput
-                pub const m_nCapsuleLightBehavior: usize = 0x13C0; // 
+                pub const m_nCapsuleLightBehavior: usize = 0x13C0; // ParticleLightBehaviorChoiceList_t
                 pub const m_flCapsuleLength: usize = 0x13C4; // float32
                 pub const m_bReverseOrder: usize = 0x13C8; // bool
                 pub const m_bClosedLoop: usize = 0x13C9; // bool
@@ -6135,7 +6135,7 @@ pub mod cs2_dumper {
             pub mod ParticleControlPointConfiguration_t {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_drivers: usize = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-                pub const m_previewState: usize = 0x20; // ParticlePreviewState_t
+                pub const m_previewState: usize = 0x20; // 
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 4

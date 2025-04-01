@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1074,7 +1074,7 @@ pub mod cs2_dumper {
                 pub const m_vMinBounds: usize = 0x0; // Vector
                 pub const m_vMaxBounds: usize = 0xC; // Vector
                 pub const m_drawCalls: usize = 0x18; // CUtlLeanVector<CMaterialDrawDescriptor>
-                pub const m_drawBounds: usize = 0x28; // 
+                pub const m_drawBounds: usize = 0x28; // CUtlLeanVector<AABB_t>
                 pub const m_meshlets: usize = 0x38; // CUtlLeanVector<CMeshletDescriptor>
                 pub const m_vTintColor: usize = 0x48; // Vector4D
             }
@@ -1464,7 +1464,7 @@ pub mod cs2_dumper {
             pub mod CMotionGraph {
                 pub const m_paramSpans: usize = 0x10; // CParamSpanUpdater
                 pub const m_tags: usize = 0x28; // CUtlVector<TagSpan_t>
-                pub const m_pRootNode: usize = 0x40; // 
+                pub const m_pRootNode: usize = 0x40; // CSmartPtr<CMotionNode>
                 pub const m_nParameterCount: usize = 0x48; // int32
                 pub const m_nConfigStartIndex: usize = 0x4C; // int32
                 pub const m_nConfigCount: usize = 0x50; // int32
@@ -3931,7 +3931,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimReplayFrame {
-                pub const m_inputDataBlocks: usize = 0x10; // CUtlVector<CUtlBinaryBlock>
+                pub const m_inputDataBlocks: usize = 0x10; // 
                 pub const m_instanceData: usize = 0x28; // CUtlBinaryBlock
                 pub const m_startingLocalToWorldTransform: usize = 0x40; // CTransform
                 pub const m_localToWorldTransform: usize = 0x60; // CTransform
@@ -4224,7 +4224,7 @@ pub mod cs2_dumper {
             pub mod CHitBoxSet {
                 pub const m_name: usize = 0x0; // CUtlString
                 pub const m_nNameHash: usize = 0x8; // uint32
-                pub const m_HitBoxes: usize = 0x10; // 
+                pub const m_HitBoxes: usize = 0x10; // CUtlVector<CHitBox>
                 pub const m_SourceFilename: usize = 0x28; // CUtlString
             }
             // Parent: None
@@ -4381,7 +4381,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmParameterizedBlendNode__Parameterization_t {
                 pub const m_blendRanges: usize = 0x0; // CUtlLeanVectorFixedGrowable<CNmParameterizedBlendNode::BlendRange_t,5>
-                pub const m_parameterRange: usize = 0x48; // 
+                pub const m_parameterRange: usize = 0x48; // Range_t
             }
             // Parent: CNmBoolValueNode__CDefinition
             // Field count: 1
@@ -4398,7 +4398,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CMeshletDescriptor {
                 pub const m_PackedAABB: usize = 0x0; // PackedAABB_t
-                pub const m_CullingData: usize = 0x8; // CDrawCullingData
+                pub const m_CullingData: usize = 0x8; // 
             }
             // Parent: None
             // Field count: 8
@@ -4810,7 +4810,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CNmFloatRangeComparisonNode__CDefinition {
-                pub const m_range: usize = 0x10; // 
+                pub const m_range: usize = 0x10; // Range_t
                 pub const m_nInputValueNodeIdx: usize = 0x18; // int16
                 pub const m_bIsInclusiveCheck: usize = 0x1A; // bool
             }
@@ -5154,7 +5154,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod MotionBlendItem {
-                pub const m_pChild: usize = 0x0; // 
+                pub const m_pChild: usize = 0x0; // CSmartPtr<CMotionNode>
                 pub const m_flKeyValue: usize = 0x8; // float32
             }
             // Parent: CBoneConstraintBase
@@ -5239,7 +5239,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CNmFloatClampNode__CDefinition {
                 pub const m_nInputValueNodeIdx: usize = 0x10; // int16
-                pub const m_clampRange: usize = 0x14; // 
+                pub const m_clampRange: usize = 0x14; // Range_t
             }
             // Parent: None
             // Field count: 15
@@ -5901,7 +5901,7 @@ pub mod cs2_dumper {
             pub mod CNmAnimationPoseNode__CDefinition {
                 pub const m_nPoseTimeValueNodeIdx: usize = 0x10; // int16
                 pub const m_nDataSlotIdx: usize = 0x12; // int16
-                pub const m_inputTimeRemapRange: usize = 0x14; // 
+                pub const m_inputTimeRemapRange: usize = 0x14; // Range_t
                 pub const m_flUserSpecifiedTime: usize = 0x1C; // float32
                 pub const m_bUseFramesAsInput: usize = 0x20; // bool
             }
@@ -6217,7 +6217,7 @@ pub mod cs2_dumper {
             pub mod CNmParameterizedBlendNode__BlendRange_t {
                 pub const m_nInputIdx0: usize = 0x0; // int16
                 pub const m_nInputIdx1: usize = 0x2; // int16
-                pub const m_parameterValueRange: usize = 0x4; // 
+                pub const m_parameterValueRange: usize = 0x4; // Range_t
             }
             // Parent: None
             // Field count: 6

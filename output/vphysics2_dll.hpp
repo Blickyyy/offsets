@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #pragma once
 
@@ -169,7 +169,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_DynNodeVertexSet = 0x518; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_VertexSetNames = 0x530; // CUtlVector<uint32>
                 constexpr std::ptrdiff_t m_RigidColliderPriorities = 0x548; // CUtlVector<FeRigidColliderIndices_t>
-                constexpr std::ptrdiff_t m_MorphLayers = 0x560; // CUtlVector<FeMorphLayerDepr_t>
+                constexpr std::ptrdiff_t m_MorphLayers = 0x560; // 
                 constexpr std::ptrdiff_t m_MorphSetData = 0x578; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_VertexMaps = 0x590; // CUtlVector<FeVertexMapDesc_t>
                 constexpr std::ptrdiff_t m_VertexMapValues = 0x5A8; // CUtlVector<uint8>

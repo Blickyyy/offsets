@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -4198,7 +4198,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderOmni2Light {
-            public const nint m_nLightType = 0x210; // 
+            public const nint m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
             public const nint m_vColorBlend = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
@@ -5212,7 +5212,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderStandardLight {
-            public const nint m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
+            public const nint m_nLightType = 0x210; // 
             public const nint m_vecColorScale = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_flIntensity = 0x898; // CParticleCollectionFloatInput
@@ -5230,7 +5230,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nPriority = 0x1258; // int32
             public const nint m_nFogLightingMode = 0x125C; // ParticleLightFogLightingMode_t
             public const nint m_flFogContribution = 0x1260; // CParticleCollectionRendererFloatInput
-            public const nint m_nCapsuleLightBehavior = 0x13C0; // 
+            public const nint m_nCapsuleLightBehavior = 0x13C0; // ParticleLightBehaviorChoiceList_t
             public const nint m_flCapsuleLength = 0x13C4; // float32
             public const nint m_bReverseOrder = 0x13C8; // bool
             public const nint m_bClosedLoop = 0x13C9; // bool
@@ -6056,7 +6056,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleControlPointConfiguration_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-            public const nint m_previewState = 0x20; // ParticlePreviewState_t
+            public const nint m_previewState = 0x20; // 
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 4

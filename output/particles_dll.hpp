@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #pragma once
 
@@ -4203,7 +4203,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderOmni2Light {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleOmni2LightTypeChoiceList_t
                 constexpr std::ptrdiff_t m_vColorBlend = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_nBrightnessUnit = 0x894; // ParticleLightUnitChoiceList_t
@@ -5217,7 +5217,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderStandardLight {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
                 constexpr std::ptrdiff_t m_vecColorScale = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_flIntensity = 0x898; // CParticleCollectionFloatInput
@@ -5235,7 +5235,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nPriority = 0x1258; // int32
                 constexpr std::ptrdiff_t m_nFogLightingMode = 0x125C; // ParticleLightFogLightingMode_t
                 constexpr std::ptrdiff_t m_flFogContribution = 0x1260; // CParticleCollectionRendererFloatInput
-                constexpr std::ptrdiff_t m_nCapsuleLightBehavior = 0x13C0; // 
+                constexpr std::ptrdiff_t m_nCapsuleLightBehavior = 0x13C0; // ParticleLightBehaviorChoiceList_t
                 constexpr std::ptrdiff_t m_flCapsuleLength = 0x13C4; // float32
                 constexpr std::ptrdiff_t m_bReverseOrder = 0x13C8; // bool
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x13C9; // bool
@@ -6061,7 +6061,7 @@ namespace cs2_dumper {
             namespace ParticleControlPointConfiguration_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-                constexpr std::ptrdiff_t m_previewState = 0x20; // ParticlePreviewState_t
+                constexpr std::ptrdiff_t m_previewState = 0x20; // 
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 4

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -91,7 +91,7 @@ pub mod cs2_dumper {
                 pub const m_anyFlags: usize = 0x4; // ObjectTypeFlags_t
                 pub const m_nLayer: usize = 0x8; // int16
                 pub const m_aggregateMeshes: usize = 0x10; // CUtlVector<AggregateMeshInfo_t>
-                pub const m_lodSetups: usize = 0x28; // 
+                pub const m_lodSetups: usize = 0x28; // CUtlVector<AggregateLODSetup_t>
                 pub const m_visClusterMembership: usize = 0x40; // CUtlVector<uint16>
                 pub const m_fragmentTransforms: usize = 0x58; // CUtlVector<matrix3x4_t>
                 pub const m_renderableModel: usize = 0x70; // CStrongHandle<InfoForResourceTypeCModel>

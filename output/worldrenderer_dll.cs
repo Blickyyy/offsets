@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -87,7 +87,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_anyFlags = 0x4; // ObjectTypeFlags_t
             public const nint m_nLayer = 0x8; // int16
             public const nint m_aggregateMeshes = 0x10; // CUtlVector<AggregateMeshInfo_t>
-            public const nint m_lodSetups = 0x28; // 
+            public const nint m_lodSetups = 0x28; // CUtlVector<AggregateLODSetup_t>
             public const nint m_visClusterMembership = 0x40; // CUtlVector<uint16>
             public const nint m_fragmentTransforms = 0x58; // CUtlVector<matrix3x4_t>
             public const nint m_renderableModel = 0x70; // CStrongHandle<InfoForResourceTypeCModel>

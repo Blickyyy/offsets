@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-03-31 16:43:50.028184300 UTC
+// 2025-04-01 20:13:44.383614400 UTC
 
 #pragma once
 
@@ -660,7 +660,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace VMixEQ8Desc_t {
-                constexpr std::ptrdiff_t m_stages = 0x0; // 
+                constexpr std::ptrdiff_t m_stages = 0x0; // VMixFilterDesc_t[8]
             }
             // Parent: None
             // Field count: 3
