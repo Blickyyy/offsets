@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 20:13:44.383614400 UTC
+// 2025-04-02 22:57:18.995689600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: soundsystem.dll
@@ -655,7 +655,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class VMixEQ8Desc_t {
-            public const nint m_stages = 0x0; // VMixFilterDesc_t[8]
+            public const nint m_stages = 0x0; // 
         }
         // Parent: None
         // Field count: 3

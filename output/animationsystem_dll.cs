@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 20:13:44.383614400 UTC
+// 2025-04-02 22:57:18.995689600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -1367,7 +1367,7 @@ namespace CS2Dumper.Schemas {
         public static class CMotionGraph {
             public const nint m_paramSpans = 0x10; // CParamSpanUpdater
             public const nint m_tags = 0x28; // CUtlVector<TagSpan_t>
-            public const nint m_pRootNode = 0x40; // CSmartPtr<CMotionNode>
+            public const nint m_pRootNode = 0x40; // 
             public const nint m_nParameterCount = 0x48; // int32
             public const nint m_nConfigStartIndex = 0x4C; // int32
             public const nint m_nConfigCount = 0x50; // int32
@@ -2859,7 +2859,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CHitBoxSetList {
-            public const nint m_HitBoxSets = 0x0; // CUtlVector<CHitBoxSet>
+            public const nint m_HitBoxSets = 0x0; // 
         }
         // Parent: None
         // Field count: 1
@@ -3834,7 +3834,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CAnimReplayFrame {
-            public const nint m_inputDataBlocks = 0x10; // 
+            public const nint m_inputDataBlocks = 0x10; // CUtlVector<CUtlBinaryBlock>
             public const nint m_instanceData = 0x28; // CUtlBinaryBlock
             public const nint m_startingLocalToWorldTransform = 0x40; // CTransform
             public const nint m_localToWorldTransform = 0x60; // CTransform
@@ -4301,7 +4301,7 @@ namespace CS2Dumper.Schemas {
         // MGetKV3ClassDefaults
         public static class CMeshletDescriptor {
             public const nint m_PackedAABB = 0x0; // PackedAABB_t
-            public const nint m_CullingData = 0x8; // 
+            public const nint m_CullingData = 0x8; // CDrawCullingData
         }
         // Parent: None
         // Field count: 8
@@ -4744,7 +4744,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_sceneObjects = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
             public const nint m_constraints = 0x78; // CUtlLeanVector<CBaseConstraint*>
             public const nint m_skeleton = 0x88; // CRenderSkeleton
-            public const nint m_meshDeformParams = 0x1A8; // DynamicMeshDeformParams_t
+            public const nint m_meshDeformParams = 0x1A8; // 
             public const nint m_pGroomData = 0x1B8; // CRenderGroom*
         }
         // Parent: None
@@ -5057,7 +5057,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class MotionBlendItem {
-            public const nint m_pChild = 0x0; // CSmartPtr<CMotionNode>
+            public const nint m_pChild = 0x0; // 
             public const nint m_flKeyValue = 0x8; // float32
         }
         // Parent: CBoneConstraintBase
@@ -5515,7 +5515,7 @@ namespace CS2Dumper.Schemas {
         public static class TwoBoneIKSettings_t {
             public const nint m_endEffectorType = 0x0; // IkEndEffectorType
             public const nint m_endEffectorAttachment = 0x10; // CAnimAttachment
-            public const nint m_targetType = 0x90; // 
+            public const nint m_targetType = 0x90; // IkTargetType
             public const nint m_targetAttachment = 0xA0; // CAnimAttachment
             public const nint m_targetBoneIndex = 0x120; // int32
             public const nint m_hPositionParam = 0x124; // CAnimParamHandle

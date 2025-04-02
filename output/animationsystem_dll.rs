@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 20:13:44.383614400 UTC
+// 2025-04-02 22:57:18.995689600 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1464,7 +1464,7 @@ pub mod cs2_dumper {
             pub mod CMotionGraph {
                 pub const m_paramSpans: usize = 0x10; // CParamSpanUpdater
                 pub const m_tags: usize = 0x28; // CUtlVector<TagSpan_t>
-                pub const m_pRootNode: usize = 0x40; // CSmartPtr<CMotionNode>
+                pub const m_pRootNode: usize = 0x40; // 
                 pub const m_nParameterCount: usize = 0x48; // int32
                 pub const m_nConfigStartIndex: usize = 0x4C; // int32
                 pub const m_nConfigCount: usize = 0x50; // int32
@@ -2956,7 +2956,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CHitBoxSetList {
-                pub const m_HitBoxSets: usize = 0x0; // CUtlVector<CHitBoxSet>
+                pub const m_HitBoxSets: usize = 0x0; // 
             }
             // Parent: None
             // Field count: 1
@@ -3931,7 +3931,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CAnimReplayFrame {
-                pub const m_inputDataBlocks: usize = 0x10; // 
+                pub const m_inputDataBlocks: usize = 0x10; // CUtlVector<CUtlBinaryBlock>
                 pub const m_instanceData: usize = 0x28; // CUtlBinaryBlock
                 pub const m_startingLocalToWorldTransform: usize = 0x40; // CTransform
                 pub const m_localToWorldTransform: usize = 0x60; // CTransform
@@ -4398,7 +4398,7 @@ pub mod cs2_dumper {
             // MGetKV3ClassDefaults
             pub mod CMeshletDescriptor {
                 pub const m_PackedAABB: usize = 0x0; // PackedAABB_t
-                pub const m_CullingData: usize = 0x8; // 
+                pub const m_CullingData: usize = 0x8; // CDrawCullingData
             }
             // Parent: None
             // Field count: 8
@@ -4841,7 +4841,7 @@ pub mod cs2_dumper {
                 pub const m_sceneObjects: usize = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
                 pub const m_constraints: usize = 0x78; // CUtlLeanVector<CBaseConstraint*>
                 pub const m_skeleton: usize = 0x88; // CRenderSkeleton
-                pub const m_meshDeformParams: usize = 0x1A8; // DynamicMeshDeformParams_t
+                pub const m_meshDeformParams: usize = 0x1A8; // 
                 pub const m_pGroomData: usize = 0x1B8; // CRenderGroom*
             }
             // Parent: None
@@ -5154,7 +5154,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod MotionBlendItem {
-                pub const m_pChild: usize = 0x0; // CSmartPtr<CMotionNode>
+                pub const m_pChild: usize = 0x0; // 
                 pub const m_flKeyValue: usize = 0x8; // float32
             }
             // Parent: CBoneConstraintBase
@@ -5612,7 +5612,7 @@ pub mod cs2_dumper {
             pub mod TwoBoneIKSettings_t {
                 pub const m_endEffectorType: usize = 0x0; // IkEndEffectorType
                 pub const m_endEffectorAttachment: usize = 0x10; // CAnimAttachment
-                pub const m_targetType: usize = 0x90; // 
+                pub const m_targetType: usize = 0x90; // IkTargetType
                 pub const m_targetAttachment: usize = 0xA0; // CAnimAttachment
                 pub const m_targetBoneIndex: usize = 0x120; // int32
                 pub const m_hPositionParam: usize = 0x124; // CAnimParamHandle

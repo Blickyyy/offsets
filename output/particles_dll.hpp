@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 20:13:44.383614400 UTC
+// 2025-04-02 22:57:18.995689600 UTC
 
 #pragma once
 
@@ -2784,7 +2784,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CParticleFunctionRenderer {
-                constexpr std::ptrdiff_t VisibilityInputs = 0x1C0; // CParticleVisibilityInputs
+                constexpr std::ptrdiff_t VisibilityInputs = 0x1C0; // 
                 constexpr std::ptrdiff_t m_bCannotBeRefracted = 0x208; // bool
                 constexpr std::ptrdiff_t m_bSkipRenderingOnMobile = 0x209; // bool
             }
@@ -6061,7 +6061,7 @@ namespace cs2_dumper {
             namespace ParticleControlPointConfiguration_t {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-                constexpr std::ptrdiff_t m_previewState = 0x20; // 
+                constexpr std::ptrdiff_t m_previewState = 0x20; // ParticlePreviewState_t
             }
             // Parent: CParticleFunctionInitializer
             // Field count: 4

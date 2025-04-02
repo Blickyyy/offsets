@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-01 20:13:44.383614400 UTC
+// 2025-04-02 22:57:18.995689600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -2779,7 +2779,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CParticleFunctionRenderer {
-            public const nint VisibilityInputs = 0x1C0; // CParticleVisibilityInputs
+            public const nint VisibilityInputs = 0x1C0; // 
             public const nint m_bCannotBeRefracted = 0x208; // bool
             public const nint m_bSkipRenderingOnMobile = 0x209; // bool
         }
@@ -6056,7 +6056,7 @@ namespace CS2Dumper.Schemas {
         public static class ParticleControlPointConfiguration_t {
             public const nint m_name = 0x0; // CUtlString
             public const nint m_drivers = 0x8; // CUtlVector<ParticleControlPointDriver_t>
-            public const nint m_previewState = 0x20; // 
+            public const nint m_previewState = 0x20; // ParticlePreviewState_t
         }
         // Parent: CParticleFunctionInitializer
         // Field count: 4
