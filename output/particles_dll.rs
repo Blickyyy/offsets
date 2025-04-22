@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1321,7 +1321,7 @@ pub mod cs2_dumper {
                 pub const m_bRefractSolid: usize = 0x2059; // bool
                 pub const m_flRefractAmount: usize = 0x2060; // CParticleCollectionRendererFloatInput
                 pub const m_nRefractBlurRadius: usize = 0x21C0; // int32
-                pub const m_nRefractBlurType: usize = 0x21C4; // BlurFilterType_t
+                pub const m_nRefractBlurType: usize = 0x21C4; // 
                 pub const m_bOnlyRenderInEffectsBloomPass: usize = 0x21C8; // bool
                 pub const m_bOnlyRenderInEffectsWaterPass: usize = 0x21C9; // bool
                 pub const m_bUseMixedResolutionRendering: usize = 0x21CA; // bool
@@ -2858,7 +2858,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CParticleFunctionRenderer {
-                pub const VisibilityInputs: usize = 0x1C0; // 
+                pub const VisibilityInputs: usize = 0x1C0; // CParticleVisibilityInputs
                 pub const m_bCannotBeRefracted: usize = 0x208; // bool
                 pub const m_bSkipRenderingOnMobile: usize = 0x209; // bool
             }
@@ -5291,7 +5291,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod C_OP_RenderStandardLight {
-                pub const m_nLightType: usize = 0x210; // 
+                pub const m_nLightType: usize = 0x210; // ParticleLightTypeChoiceList_t
                 pub const m_vecColorScale: usize = 0x218; // CParticleCollectionVecInput
                 pub const m_nColorBlendType: usize = 0x890; // ParticleColorBlendType_t
                 pub const m_flIntensity: usize = 0x898; // CParticleCollectionFloatInput

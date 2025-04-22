@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 #pragma once
 
@@ -1247,7 +1247,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRefractSolid = 0x2059; // bool
                 constexpr std::ptrdiff_t m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
                 constexpr std::ptrdiff_t m_nRefractBlurRadius = 0x21C0; // int32
-                constexpr std::ptrdiff_t m_nRefractBlurType = 0x21C4; // BlurFilterType_t
+                constexpr std::ptrdiff_t m_nRefractBlurType = 0x21C4; // 
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
                 constexpr std::ptrdiff_t m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
                 constexpr std::ptrdiff_t m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -2784,7 +2784,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CParticleFunctionRenderer {
-                constexpr std::ptrdiff_t VisibilityInputs = 0x1C0; // 
+                constexpr std::ptrdiff_t VisibilityInputs = 0x1C0; // CParticleVisibilityInputs
                 constexpr std::ptrdiff_t m_bCannotBeRefracted = 0x208; // bool
                 constexpr std::ptrdiff_t m_bSkipRenderingOnMobile = 0x209; // bool
             }
@@ -5217,7 +5217,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace C_OP_RenderStandardLight {
-                constexpr std::ptrdiff_t m_nLightType = 0x210; // 
+                constexpr std::ptrdiff_t m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
                 constexpr std::ptrdiff_t m_vecColorScale = 0x218; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x890; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_flIntensity = 0x898; // CParticleCollectionFloatInput

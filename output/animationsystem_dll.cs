@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: animationsystem.dll
@@ -2383,7 +2383,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_boneSphere = 0x30; // CUtlVector<float32>
             public const nint m_nFlag = 0x48; // CUtlVector<uint32>
             public const nint m_bonePosParent = 0x60; // CUtlVector<Vector>
-            public const nint m_boneRotParent = 0x78; // CUtlVector<QuaternionStorage>
+            public const nint m_boneRotParent = 0x78; // 
             public const nint m_boneScaleParent = 0x90; // CUtlVector<float32>
         }
         // Parent: None
@@ -2859,7 +2859,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CHitBoxSetList {
-            public const nint m_HitBoxSets = 0x0; // 
+            public const nint m_HitBoxSets = 0x0; // CUtlVector<CHitBoxSet>
         }
         // Parent: None
         // Field count: 1
@@ -3552,7 +3552,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_meshGroups = 0x150; // CUtlVector<CUtlString>
             public const nint m_materialGroups = 0x168; // CUtlVector<MaterialGroup_t>
             public const nint m_nDefaultMeshGroupMask = 0x180; // uint64
-            public const nint m_modelSkeleton = 0x188; // ModelSkeletonData_t
+            public const nint m_modelSkeleton = 0x188; // 
             public const nint m_remappingTable = 0x230; // CUtlVector<int16>
             public const nint m_remappingTableStarts = 0x248; // CUtlVector<uint16>
             public const nint m_boneFlexDrivers = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4744,7 +4744,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_sceneObjects = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
             public const nint m_constraints = 0x78; // CUtlLeanVector<CBaseConstraint*>
             public const nint m_skeleton = 0x88; // CRenderSkeleton
-            public const nint m_meshDeformParams = 0x1A8; // 
+            public const nint m_meshDeformParams = 0x1A8; // DynamicMeshDeformParams_t
             public const nint m_pGroomData = 0x1B8; // CRenderGroom*
         }
         // Parent: None
@@ -5515,7 +5515,7 @@ namespace CS2Dumper.Schemas {
         public static class TwoBoneIKSettings_t {
             public const nint m_endEffectorType = 0x0; // IkEndEffectorType
             public const nint m_endEffectorAttachment = 0x10; // CAnimAttachment
-            public const nint m_targetType = 0x90; // IkTargetType
+            public const nint m_targetType = 0x90; // 
             public const nint m_targetAttachment = 0xA0; // CAnimAttachment
             public const nint m_targetBoneIndex = 0x120; // int32
             public const nint m_hPositionParam = 0x124; // CAnimParamHandle

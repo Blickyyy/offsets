@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -2480,7 +2480,7 @@ pub mod cs2_dumper {
                 pub const m_boneSphere: usize = 0x30; // CUtlVector<float32>
                 pub const m_nFlag: usize = 0x48; // CUtlVector<uint32>
                 pub const m_bonePosParent: usize = 0x60; // CUtlVector<Vector>
-                pub const m_boneRotParent: usize = 0x78; // CUtlVector<QuaternionStorage>
+                pub const m_boneRotParent: usize = 0x78; // 
                 pub const m_boneScaleParent: usize = 0x90; // CUtlVector<float32>
             }
             // Parent: None
@@ -2956,7 +2956,7 @@ pub mod cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             pub mod CHitBoxSetList {
-                pub const m_HitBoxSets: usize = 0x0; // 
+                pub const m_HitBoxSets: usize = 0x0; // CUtlVector<CHitBoxSet>
             }
             // Parent: None
             // Field count: 1
@@ -3649,7 +3649,7 @@ pub mod cs2_dumper {
                 pub const m_meshGroups: usize = 0x150; // CUtlVector<CUtlString>
                 pub const m_materialGroups: usize = 0x168; // CUtlVector<MaterialGroup_t>
                 pub const m_nDefaultMeshGroupMask: usize = 0x180; // uint64
-                pub const m_modelSkeleton: usize = 0x188; // ModelSkeletonData_t
+                pub const m_modelSkeleton: usize = 0x188; // 
                 pub const m_remappingTable: usize = 0x230; // CUtlVector<int16>
                 pub const m_remappingTableStarts: usize = 0x248; // CUtlVector<uint16>
                 pub const m_boneFlexDrivers: usize = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4841,7 +4841,7 @@ pub mod cs2_dumper {
                 pub const m_sceneObjects: usize = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
                 pub const m_constraints: usize = 0x78; // CUtlLeanVector<CBaseConstraint*>
                 pub const m_skeleton: usize = 0x88; // CRenderSkeleton
-                pub const m_meshDeformParams: usize = 0x1A8; // 
+                pub const m_meshDeformParams: usize = 0x1A8; // DynamicMeshDeformParams_t
                 pub const m_pGroomData: usize = 0x1B8; // CRenderGroom*
             }
             // Parent: None
@@ -5612,7 +5612,7 @@ pub mod cs2_dumper {
             pub mod TwoBoneIKSettings_t {
                 pub const m_endEffectorType: usize = 0x0; // IkEndEffectorType
                 pub const m_endEffectorAttachment: usize = 0x10; // CAnimAttachment
-                pub const m_targetType: usize = 0x90; // IkTargetType
+                pub const m_targetType: usize = 0x90; // 
                 pub const m_targetAttachment: usize = 0xA0; // CAnimAttachment
                 pub const m_targetBoneIndex: usize = 0x120; // int32
                 pub const m_hPositionParam: usize = 0x124; // CAnimParamHandle

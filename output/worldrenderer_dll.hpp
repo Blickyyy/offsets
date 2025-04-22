@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 #pragma once
 
@@ -235,7 +235,7 @@ namespace cs2_dumper {
             namespace WorldNodeOnDiskBufferData_t {
                 constexpr std::ptrdiff_t m_nElementCount = 0x0; // int32
                 constexpr std::ptrdiff_t m_nElementSizeInBytes = 0x4; // int32
-                constexpr std::ptrdiff_t m_inputLayoutFields = 0x8; // CUtlVector<RenderInputLayoutField_t>
+                constexpr std::ptrdiff_t m_inputLayoutFields = 0x8; // 
                 constexpr std::ptrdiff_t m_pData = 0x20; // CUtlVector<uint8>
             }
             // Parent: None

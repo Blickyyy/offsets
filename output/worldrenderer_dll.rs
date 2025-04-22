@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -234,7 +234,7 @@ pub mod cs2_dumper {
             pub mod WorldNodeOnDiskBufferData_t {
                 pub const m_nElementCount: usize = 0x0; // int32
                 pub const m_nElementSizeInBytes: usize = 0x4; // int32
-                pub const m_inputLayoutFields: usize = 0x8; // CUtlVector<RenderInputLayoutField_t>
+                pub const m_inputLayoutFields: usize = 0x8; // 
                 pub const m_pData: usize = 0x20; // CUtlVector<uint8>
             }
             // Parent: None

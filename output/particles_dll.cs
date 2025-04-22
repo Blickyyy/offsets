@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: particles.dll
@@ -1242,7 +1242,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_bRefractSolid = 0x2059; // bool
             public const nint m_flRefractAmount = 0x2060; // CParticleCollectionRendererFloatInput
             public const nint m_nRefractBlurRadius = 0x21C0; // int32
-            public const nint m_nRefractBlurType = 0x21C4; // BlurFilterType_t
+            public const nint m_nRefractBlurType = 0x21C4; // 
             public const nint m_bOnlyRenderInEffectsBloomPass = 0x21C8; // bool
             public const nint m_bOnlyRenderInEffectsWaterPass = 0x21C9; // bool
             public const nint m_bUseMixedResolutionRendering = 0x21CA; // bool
@@ -2779,7 +2779,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class CParticleFunctionRenderer {
-            public const nint VisibilityInputs = 0x1C0; // 
+            public const nint VisibilityInputs = 0x1C0; // CParticleVisibilityInputs
             public const nint m_bCannotBeRefracted = 0x208; // bool
             public const nint m_bSkipRenderingOnMobile = 0x209; // bool
         }
@@ -5212,7 +5212,7 @@ namespace CS2Dumper.Schemas {
         // Metadata:
         // MGetKV3ClassDefaults
         public static class C_OP_RenderStandardLight {
-            public const nint m_nLightType = 0x210; // 
+            public const nint m_nLightType = 0x210; // ParticleLightTypeChoiceList_t
             public const nint m_vecColorScale = 0x218; // CParticleCollectionVecInput
             public const nint m_nColorBlendType = 0x890; // ParticleColorBlendType_t
             public const nint m_flIntensity = 0x898; // CParticleCollectionFloatInput

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: worldrenderer.dll
@@ -230,7 +230,7 @@ namespace CS2Dumper.Schemas {
         public static class WorldNodeOnDiskBufferData_t {
             public const nint m_nElementCount = 0x0; // int32
             public const nint m_nElementSizeInBytes = 0x4; // int32
-            public const nint m_inputLayoutFields = 0x8; // CUtlVector<RenderInputLayoutField_t>
+            public const nint m_inputLayoutFields = 0x8; // 
             public const nint m_pData = 0x20; // CUtlVector<uint8>
         }
         // Parent: None

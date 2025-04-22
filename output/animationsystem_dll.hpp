@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-04-02 22:57:18.995689600 UTC
+// 2025-04-22 14:39:19.183540100 UTC
 
 #pragma once
 
@@ -2388,7 +2388,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_boneSphere = 0x30; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_nFlag = 0x48; // CUtlVector<uint32>
                 constexpr std::ptrdiff_t m_bonePosParent = 0x60; // CUtlVector<Vector>
-                constexpr std::ptrdiff_t m_boneRotParent = 0x78; // CUtlVector<QuaternionStorage>
+                constexpr std::ptrdiff_t m_boneRotParent = 0x78; // 
                 constexpr std::ptrdiff_t m_boneScaleParent = 0x90; // CUtlVector<float32>
             }
             // Parent: None
@@ -2864,7 +2864,7 @@ namespace cs2_dumper {
             // Metadata:
             // MGetKV3ClassDefaults
             namespace CHitBoxSetList {
-                constexpr std::ptrdiff_t m_HitBoxSets = 0x0; // 
+                constexpr std::ptrdiff_t m_HitBoxSets = 0x0; // CUtlVector<CHitBoxSet>
             }
             // Parent: None
             // Field count: 1
@@ -3557,7 +3557,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_meshGroups = 0x150; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_materialGroups = 0x168; // CUtlVector<MaterialGroup_t>
                 constexpr std::ptrdiff_t m_nDefaultMeshGroupMask = 0x180; // uint64
-                constexpr std::ptrdiff_t m_modelSkeleton = 0x188; // ModelSkeletonData_t
+                constexpr std::ptrdiff_t m_modelSkeleton = 0x188; // 
                 constexpr std::ptrdiff_t m_remappingTable = 0x230; // CUtlVector<int16>
                 constexpr std::ptrdiff_t m_remappingTableStarts = 0x248; // CUtlVector<uint16>
                 constexpr std::ptrdiff_t m_boneFlexDrivers = 0x260; // CUtlVector<ModelBoneFlexDriver_t>
@@ -4749,7 +4749,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_sceneObjects = 0x10; // CUtlLeanVectorFixedGrowable<CSceneObjectData,1>
                 constexpr std::ptrdiff_t m_constraints = 0x78; // CUtlLeanVector<CBaseConstraint*>
                 constexpr std::ptrdiff_t m_skeleton = 0x88; // CRenderSkeleton
-                constexpr std::ptrdiff_t m_meshDeformParams = 0x1A8; // 
+                constexpr std::ptrdiff_t m_meshDeformParams = 0x1A8; // DynamicMeshDeformParams_t
                 constexpr std::ptrdiff_t m_pGroomData = 0x1B8; // CRenderGroom*
             }
             // Parent: None
@@ -5520,7 +5520,7 @@ namespace cs2_dumper {
             namespace TwoBoneIKSettings_t {
                 constexpr std::ptrdiff_t m_endEffectorType = 0x0; // IkEndEffectorType
                 constexpr std::ptrdiff_t m_endEffectorAttachment = 0x10; // CAnimAttachment
-                constexpr std::ptrdiff_t m_targetType = 0x90; // IkTargetType
+                constexpr std::ptrdiff_t m_targetType = 0x90; // 
                 constexpr std::ptrdiff_t m_targetAttachment = 0xA0; // CAnimAttachment
                 constexpr std::ptrdiff_t m_targetBoneIndex = 0x120; // int32
                 constexpr std::ptrdiff_t m_hPositionParam = 0x124; // CAnimParamHandle
